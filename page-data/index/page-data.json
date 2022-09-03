@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"窓屋"}},"allMarkdownRemark":{"group":[{"fieldValue":"お知らせ"}],"nodes":[{"excerpt":"4年ほどインターネット(SNS)から離れていました。\nサイト更新の方法を忘れてしまった（というか、色々凝ったのが面倒になってしまった）ので、過去記事は一度全部捨てて新しく構築することにしました。この2週間くらいでTypeScriptとReact…","html":"<p>4年ほどインターネット(SNS)から離れていました。\nサイト更新の方法を忘れてしまった（というか、色々凝ったのが面倒になってしまった）ので、過去記事は一度全部捨てて新しく構築することにしました。この2週間くらいでTypeScriptとReactの勉強を始めたのでちょうどいいやとGatsbyJSを使いましたが、簡単にそれっぽいのができて楽ですね。</p>\n<p>コンテンツは少しずつ復活していきます。とりあえず、今後も、ほどほどに、よろしくお願いします。</p>","fields":{"slug":"/お知らせ/サイトリニューアル/"},"frontmatter":{"date":"September 03, 2022","title":"サイトリニューアル","description":"サイトをリニューアルしました","category":"お知らせ"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3868140423","4142162438","508672574"]}
