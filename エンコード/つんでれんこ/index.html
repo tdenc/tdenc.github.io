@@ -1,0 +1,1314 @@
+<!DOCTYPE html><html lang="ja"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.f6b92641e7f47cd21f74.css" data-identity="gatsby-global-css">@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700;900&display=swap);@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-8d7d79679b70dbe27172b6460e7a7910.woff2) format("woff2"),url(/static/montserrat-latin-100-ec38980a9e0119a379e2a9b3dbb1901a.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-e279051046ba1286706adc886cf1c96b.woff2) format("woff2"),url(/static/montserrat-latin-100italic-3b325a3173c8207435cd1b76e19bf501.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-9d266fbbfa6cab7009bd56003b1eeb67.woff2) format("woff2"),url(/static/montserrat-latin-200-2d8ba08717110d27122e54c34b8a5798.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-6e5b3756583bb2263eb062eae992735e.woff2) format("woff2"),url(/static/montserrat-latin-200italic-a0d6f343e4b536c582926255367a57da.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-00b3e893aab5a8fd632d6342eb72551a.woff2) format("woff2"),url(/static/montserrat-latin-300-ea303695ceab35f17e7d062f30e0173b.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-56f34ea368f6aedf89583d444bbcb227.woff2) format("woff2"),url(/static/montserrat-latin-300italic-54b0bf2c8c4c12ffafd803be2466a790.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-b71748ae4f80ec8c014def4c5fa8688b.woff2) format("woff2"),url(/static/montserrat-latin-400-0659a9f4e90db5cf51b50d005bff1e41.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-6eed6b4cbb809c6efc7aa7ddad6dbe3e.woff2) format("woff2"),url(/static/montserrat-latin-400italic-7583622cfde30ae49086d18447ab28e7.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-091b209546e16313fd4f4fc36090c757.woff2) format("woff2"),url(/static/montserrat-latin-500-edd311588712a96bbf435fad264fff62.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-c90ced68b46050061d1a41842d6dfb43.woff2) format("woff2"),url(/static/montserrat-latin-500italic-5146cbfe02b1deea5dffea27a5f2f998.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-0480d2f8a71f38db8633b84d8722e0c2.woff2) format("woff2"),url(/static/montserrat-latin-600-b77863a375260a05dd13f86a1cee598f.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-cf46ffb11f3a60d7df0567f8851a1d00.woff2) format("woff2"),url(/static/montserrat-latin-600italic-c4fcfeeb057724724097167e57bd7801.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-7dbcc8a5ea2289d83f657c25b4be6193.woff2) format("woff2"),url(/static/montserrat-latin-700-99271a835e1cae8c76ef8bba99a8cc4e.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-c41ad6bdb4bd504a843d546d0a47958d.woff2) format("woff2"),url(/static/montserrat-latin-700italic-6779372f04095051c62ed36bc1dcc142.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-db9a3e0ba7eaea32e5f55328ace6cf23.woff2) format("woff2"),url(/static/montserrat-latin-800-4e3c615967a2360f5db87d2f0fd2456f.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-bf45bfa14805969eda318973947bc42b.woff2) format("woff2"),url(/static/montserrat-latin-800italic-fe82abb0bcede51bf724254878e0c374.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-e66c7edc609e24bacbb705175669d814.woff2) format("woff2"),url(/static/montserrat-latin-900-8211f418baeb8ec880b80ba3c682f957.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-4454c775e48152c1a72510ceed3603e2.woff2) format("woff2"),url(/static/montserrat-latin-900italic-efcaa0f6a82ee0640b83a0916e6e8d68.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-fc117160c69a8ea0851b26dd14748ee4.woff2) format("woff2"),url(/static/merriweather-latin-300-58b18067ebbd21fda77b67e73c241d3b.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-fe29961474f8dbf77c0aa7b9a629e4bc.woff2) format("woff2"),url(/static/merriweather-latin-300italic-23c3f1f88683618a4fb8d265d33d383a.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-d9479e8023bef9cbd9bf8d6eabd6bf36.woff2) format("woff2"),url(/static/merriweather-latin-400-040426f99ff6e00b86506452e0d1f10b.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-2de7bfeaf08fb03d4315d49947f062f7.woff2) format("woff2"),url(/static/merriweather-latin-400italic-79db67aca65f5285964ab332bd65f451.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-4b08e01d805fa35d7bf777f1b24314ae.woff2) format("woff2"),url(/static/merriweather-latin-700-22fb8afba4ab1f093b6ef9e28a9b6e92.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-cd92541b177652fffb6e3b952f1c33f1.woff2) format("woff2"),url(/static/merriweather-latin-700italic-f87f3d87cea0dd0979bfc8ac9ea90243.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-f813fc6a4bee46eda5224ac7ebf1b7be.woff2) format("woff2"),url(/static/merriweather-latin-900-5d4e42cb44410674acd99153d57df032.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-b7901d85486871c1779c0e93ddd85656.woff2) format("woff2"),url(/static/merriweather-latin-900italic-9647f9fdab98756989a8a5550eb205c3.woff) format("woff")}
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a,a:active,a:hover{background-color:transparent;color:inherit;text-decoration:none}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}.about-page{flex-direction:column;flex-wrap:wrap;padding-bottom:76px}@media(min-width:1024px){.about-page{width:572px}}@media(max-width:767px){.about-page{width:100%}}.about-name,.about-name-dark,.about-name-light{font-size:45px;font-weight:900;line-height:165%;margin:0;text-align:center;word-break:break-all}@media(max-width:767px){.about-name,.about-name-dark,.about-name-light{padding-top:55px}}.about-name-light{color:#363739}.self-introduction,.self-introduction-dark,.self-introduction-light{color:#585858;letter-spacing:-.025em;margin-top:16px;text-align:center}.self-introduction-light{color:#585858}.profile-image{margin-top:28px}@media(min-width:1024px){.profile-image{height:216px;width:216px}}@media(max-width:767px){.profile-image{height:162px;width:162px}}.posts-box{border-radius:30px;height:54px;margin-top:50px;width:274px}.posts-box,.posts-box:hover{background-color:#55af7a;transition:.2s}.posts-box:hover{box-shadow:0 4px 10px rgba(85,175,122,.4);-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0)}.about-name,.about-name-dark,.about-name-light,.about-page,.display_layout,.posts-box{align-items:center;display:flex;justify-content:center}.header-area{border-bottom:1px solid rgba(0,0,0,.08);box-shadow:0 4px 30px rgba(0,0,0,.03);display:flex;height:60px;justify-content:center;width:100%}@media(min-width:1024px){.header-area{height:88px}}.header-area .header-contents{align-items:center;display:flex;flex:1 1;justify-content:space-between;max-width:1024px;padding:0 25px;width:100%}@media(min-width:1024px){.header-area .header-contents{padding:0}}.header-area .header-contents .header-title{color:#55af7a;cursor:default;font-family:Lato,sans-serif;font-size:1rem;font-weight:800;line-height:150%}@media(min-width:1024px){.header-area .header-contents .header-title{font-size:1.2rem}}.header-area .header-contents .header-category-container{align-items:center;display:flex}.header-area .header-contents .header-category-container button,.header-area .header-contents .header-category-container>a{margin-left:16px}.header-area .header-contents .header-category-container h3{color:#585858;font-size:14px;font-weight:500}.header-area .header-contents .header-category-container button{display:none}.header-area .header-contents .header-category-container .active{color:#55af7a;position:relative}.header-area .header-contents .header-category-container .active:after{background-color:#55af7a;border-radius:50%;content:"";display:block;height:5px;left:50%;position:absolute;-webkit-transform:translate(-50%);transform:translate(-50%);width:5px}@media(min-width:1024px){.header-area .header-contents .header-category-container button,.header-area .header-contents .header-category-container>a{margin-left:32px}.header-area .header-contents .header-category-container h3{font-size:16px}.header-area .header-contents .header-category-container button{display:flex}}.green{background-color:#55af7a;border:1px solid #55af7a}.black{background-color:#363739;border:1px solid #363739}.black:hover{box-shadow:0 4px 10px #363739}.black,.default-color-layout,.green{align-items:center;border-radius:10px;color:#fff;cursor:pointer;display:flex;font-size:14px;font-weight:700;height:42px;justify-content:center;transition:.2s;width:92px}.black img,.default-color-layout img,.green img{height:18px;padding:3px;width:18px}.black:hover,.default-color-layout:hover,.green:hover{-webkit-transform:translate3d(0,-3px,0);transform:translate3d(0,-3px,0);transition:.2s}.toggler{border:1px solid;border-radius:22px;box-sizing:border-box;cursor:pointer;float:right;height:22px;position:relative;width:22px}@media(min-width:1024px){.toggler{height:26px;width:58px}}.toggler-text{display:none;font-family:Lato,sans-serif;font-size:13px;font-weight:500;line-height:150%}@media(min-width:1024px){.toggler-text{display:block}}.toggler-text-light{position:absolute;right:6px;top:3px}.toggler-text-dark{left:5px;position:absolute;top:3px}.toggler-checkbox{height:0;opacity:0;width:0}.toggler-slider{border-radius:34px;bottom:0;cursor:pointer;left:0;margin-bottom:.8px;position:absolute;right:0;top:0;transition:.4s}.toggler-slider-light:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDE0IDE0Ij48cGF0aCBmaWxsPSIjOTdENUIwIiBkPSJNNi4xNTEgNC41MDdhMi42OTYgMi42OTYgMCAwIDAtMS42NDQgMy40MzQgMi42OTYgMi42OTYgMCAwIDAgMy40MzQgMS42NDQgMi42OTYgMi42OTYgMCAwIDAgMS42NDQtMy40MzQgMi42OTYgMi42OTYgMCAwIDAtMy40MzQtMS42NDRabS0uMjU2LS43MjVjLjItLjA3LjMwNi0uMjkuMjM1LS40OWwtLjI1NS0uNzI2YS4zODUuMzg1IDAgMCAwLS43MjYuMjU1bC4yNTYuNzI2Yy4wNy4yLjI5LjMwNS40OS4yMzVabTIuMzAyIDYuNTI5Yy0uMi4wNy0uMzA2LjI5LS4yMzUuNDlsLjI1Ni43MjZhLjM4NC4zODQgMCAxIDAgLjcyNS0uMjU2bC0uMjU1LS43MjVhLjM4NS4zODUgMCAwIDAtLjQ5MS0uMjM1Wm0uODU2LTYuNTY4LjMzMi0uNjkzYS4zODQuMzg0IDAgMSAwLS42OTQtLjMzM2wtLjMzMi42OTRhLjM4NC4zODQgMCAxIDAgLjY5NC4zMzJaTTUuMDM4IDEwLjM1bC0uMzMyLjY5NGEuMzg0LjM4NCAwIDEgMCAuNjk0LjMzMmwuMzMyLS42OTRhLjM4NC4zODQgMCAxIDAtLjY5NC0uMzMyWk0zLjc4MiA4LjE5N2EuMzg1LjM4NSAwIDAgMC0uNDkxLS4yMzVsLS43MjYuMjU2YS4zODQuMzg0IDAgMSAwIC4yNTYuNzI1bC43MjYtLjI1NWMuMi0uMDcuMzA1LS4yOS4yMzUtLjQ5Wm03LjQ5LTMuMDQ4LS43MjYuMjU2YS4zODQuMzg0IDAgMSAwIC4yNTUuNzI1bC43MjYtLjI1NWEuMzg0LjM4NCAwIDEgMC0uMjU2LS43MjZabS03Ljg2Mi41ODNhLjM4NC4zODQgMCAxIDAgLjMzMi0uNjkzbC0uNjkzLS4zMzJhLjM4NC4zODQgMCAxIDAtLjMzMi42OTNsLjY5My4zMzJabTcuMjcxIDIuNjI4YS4zODQuMzg0IDAgMSAwLS4zMzIuNjk0bC42OTQuMzMyYS4zODUuMzg1IDAgMCAwIC4zMzItLjY5NGwtLjY5NC0uMzMyWiIvPjwvc3ZnPg==)}.toggler-slider-dark:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDEyIDEyIj48cGF0aCBmaWxsPSIjMzYzNzM5IiBkPSJNNS4xMzIgNi4wOTVjLS40OTQtMS41ODMuMzU3LTMuMzI4IDEuNDk3LTQuMzg2YTQuMTI3IDQuMTI3IDAgMCAwLTEuODI3LjEzNCA0LjE2NCA0LjE2NCAwIDEgMCAyLjQ4MSA3Ljk1MmMuNjEzLS4xOSAxLjE0LS41MiAxLjU4LS45My0xLjU0LS4yMi0zLjIzNy0xLjE4OC0zLjczMS0yLjc3WiIvPjwvc3ZnPg==)}.toggler-slider:before{background-size:cover;border:1px solid;border-radius:50%;bottom:1px;content:"";height:16px;left:2px;position:absolute;transition:.4s;-webkit-transition:.4s;width:16px}@media(min-width:1024px){.toggler-slider:before{height:20px;width:20px}input:checked+.toggler-slider:before{-webkit-transform:translateX(30px);transform:translateX(30px)}}body.light{background-color:#fff;text-shadow:0 0 .1px rgba(0,0,0,.3);transition:color .4s ease-out,background-color .4s ease-out}body.light .toggler{color:#55af7a}body.dark{background-color:#2a2a2a;text-shadow:#848484;transition:color .4s ease-out,background-color .4s ease-out}body.dark .card--desc__top{color:#fff}body.dark .toggler{color:#e7f2ec}body.dark .toggler-slider:before{background-color:#e7f2ec}body.dark .header-area .header-contents .header-category-container h3,body.dark .index-title{color:#fff}body.dark .main-aside{background-color:#2a2a2a}body.dark .blog-post h1,body.dark .blog-post h2,body.dark .blog-post h3,body.dark .blog-post li,body.dark .blog-post p,body.dark .blog-post-nav h1,body.dark .blog-post-nav h2,body.dark .blog-post-nav h3,body.dark .blog-post-nav li,body.dark .blog-post-nav p,body.dark .main-aside .aside-header .aside-tag-title{color:#fff}body.dark .blog-post blockquote>p,body.dark .blog-post-nav blockquote>p{color:#363739}body.dark .about-name-dark,body.dark .blog-post-nav.blog-post-nav h2,body.dark .blog-post.blog-post-nav h2,body.dark .mail,body.dark .self-introduction-dark{color:#fff}@media(min-width:1024px){div.global-wrapper{align-items:center;display:flex;flex-direction:column}}main.global-main{max-width:1024px;padding:0 16px}@media(min-width:1024px){main.global-main{margin-top:88px;padding:0}}:after,:before{box-sizing:border-box}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:16px;line-height:1.5}body{font-family:Noto Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem}.logo{cursor:pointer;line-height:1}@media(max-width:42rem){blockquote{margin-left:var(--spacing-0);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4)}ol,ul{list-style-position:inside}}.h1{color:#848484}.category{padding:0 25px;width:auto}@media(min-width:1024px){.category{display:flex;flex-wrap:wrap;justify-content:center;padding:0;width:300px}}.category--item{border:0;border-radius:30px;display:inline-block;font-size:14px;font-weight:500;margin-right:12px;outline:0;padding:3px 13px;transition:.2s;transition:transform .3s cubic-bezier(.155,1.105,.295,1.12),box-shadow .3s,-webkit-transform .3s cubic-bezier(.155,1.105,.295,1.12)}.category--item,.category--item:hover{background-color:#e1e1e1;color:#55af7a}.category--item:hover{-webkit-transform:scale(1.1);transform:scale(1.1)}.category--item.active,.category--item.active:hover{background-color:#55af7a;color:#e7f2ec}.category--item:last-child{margin-right:25px}@media(min-width:1024px){.category--item{border-radius:4px;display:block;font-size:1rem;margin-bottom:12px}}.contacts{flex-direction:column;justify-content:flex-start;width:300px}.contacts,.contacts .mail{align-items:center;display:flex}.contacts .mail{color:#585858;font-size:15px;height:40px;line-height:21.45px;margin-top:45px;width:100%}@media(min-width:1024px){.contacts .mail{padding-left:12px}}.contacts .mail .tag-image{margin-right:10px}.contacts .mail span{margin-bottom:5px}@-webkit-keyframes hover-animation{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}23%{-webkit-transform:translate3d(0,3px,0);transform:translate3d(0,3px,0)}80%{-webkit-transform:translate3d(0,-2px,0);transform:translate3d(0,-2px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes hover-animation{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}23%{-webkit-transform:translate3d(0,3px,0);transform:translate3d(0,3px,0)}80%{-webkit-transform:translate3d(0,-2px,0);transform:translate3d(0,-2px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.contacts .snslink{align-items:center;display:flex;height:28px;margin-top:36px;width:100%}@media(min-width:1024px){.contacts .snslink{padding-left:12px}}.contacts .snslink--item{align-items:center;background-color:#55af7a;border-radius:50%;box-sizing:border-box;display:flex;height:30px;justify-content:center;transition:.2s ease-in-out;width:30px}.contacts .snslink--item:not(first-child){margin-right:10px}.contacts .snslink--item:hover{-webkit-animation:hover-animation .8s ease-in-out infinite;animation:hover-animation .8s ease-in-out infinite}.card{border-radius:8px;box-shadow:0 5px 10px rgba(154,160,185,.05),0 15px 40px rgba(166,173,201,.2);cursor:pointer;margin-bottom:38px;overflow:hidden;transition:transform .3s cubic-bezier(.155,1.105,.295,1.12),box-shadow .3s,-webkit-transform .3s cubic-bezier(.155,1.105,.295,1.12)}.card:hover{box-shadow:0 10px 20px rgba(0,0,0,.12),0 4px 8px rgba(0,0,0,.06);-webkit-transform:scale(1.05);transform:scale(1.05)}@media(min-width:768px)and (max-width:1024px -1){.card{margin-bottom:68px}}@media(min-width:1024px){.card{margin-bottom:60px;overflow:auto}}.card--image{align-items:center;border:1px solid #e1e1e1;border-radius:8px 8px 0 0;display:flex;height:168px;justify-content:center;overflow:hidden}.card--image>img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}@media(min-width:1024px){.card--image{height:185px}}.card--image.no-thumbnail{box-sizing:border-box;padding:20px}.card--image.no-thumbnail span{color:#fff;font-size:42px;font-weight:900;line-height:1.3;overflow:hidden;text-align:center;text-overflow:ellipsis}.card--image.theme-color-1{background-color:#97d4b0}.card--image.theme-color-1 span{color:#e7f2ec}.card--image.theme-color-2{background-color:#848484}.card--image.theme-color-2 span{color:#363739}.card--image.theme-color-3{background-color:#2a2a2a}.card--image.theme-color-3 span{color:#b8b8b8}.card--desc__top{border-bottom:1px solid #e1e1e1;color:#2a2a2a;padding:0 12px}.card--desc__top .title{font-size:18px;font-weight:700;line-height:150%;margin:16px 0}.card--desc__top .contents{-webkit-line-clamp:4;-webkit-box-orient:vertical;word-wrap:break-word;display:-webkit-box;font-size:15px;height:5.5rem;line-height:150%;overflow:hidden;text-align:left;text-overflow:ellipsis;white-space:normal}.card--desc__bottom{align-items:center;color:#b8b8b8;display:flex;justify-content:space-between;margin:10px 0 20px;padding:0 12px}.card--desc__bottom .card-category{align-items:center;display:flex;margin-bottom:0;margin-top:0}.card--desc__bottom .card-category-icon{height:12px;width:13px}.card--desc__bottom .card-category-text{color:#b8b8b8;font-family:Lato,sans-serif;font-size:13px;line-height:150%;margin-left:6px}.card--desc__bottom .card-date{align-items:center;display:flex;margin-bottom:0;margin-left:16px;margin-top:0}.card--desc__bottom .card-date-icon{background-repeat:no-repeat;background-size:cover;height:12px;width:13px}.card--desc__bottom .card-date-text{color:#b8b8b8;font-family:Lato,sans-serif;font-size:13px;line-height:150%;margin-left:6px}.main{display:flex;flex-direction:column}@media(min-width:1024px){.main{display:grid;grid-template-columns:742px 282px}.main .card-container{order:1}.main .main-aside{order:2}}.aside{-ms-overflow-style:none;background-color:hsla(0,0%,100%,.89);border-radius:4px;margin:0 -25px 14px;overflow-x:auto;overflow-y:hidden;padding-bottom:13px;padding-top:13px;position:-webkit-sticky;position:sticky;top:0;white-space:nowrap;width:100vw;z-index:1111}.aside-header{display:flex;justify-content:space-between;margin:0;padding:0 25px}@media(min-width:1024px){.aside-header{margin-bottom:30px;overflow-x:hidden;padding:0;position:static}}.aside-tag-title{color:#2a2a2a;font-family:Lato,sans-serif;font-weight:700;letter-spacing:.4px;line-height:150%;margin-left:10px}.aside-tag-container{display:flex;justify-content:start}.aside::-webkit-scrollbar{display:none}.aside .aside-header,.aside .contacts{display:none}@media(min-width:1024px){.aside{height:380px;margin:0;overflow-x:hidden;position:-webkit-sticky;position:sticky;top:0;white-space:normal;width:282px}.aside .aside-header,.aside .contacts{display:flex}}.index-title{color:#2a2a2a;font-size:1rem;font-weight:700;margin:0 auto 16px}@media(max-width:767px){.index-title a{width:100%}}@media(min-width:768px)and (max-width:1024px -1){.index-title a{width:100%}}@media(min-width:1024px){.index-title{flex-direction:row;justify-content:space-between;margin-left:0;margin-right:0}.index-title a{width:300px}.index-title a:nth-child(2n){margin-right:80px}}.index-title>img{margin-right:10px}@media(min-width:1024px){.index-title{font-size:20px;margin-bottom:40px}}.card-container{display:flex;flex-direction:column;flex-wrap:wrap;margin:0 auto}@media(max-width:767px){.card-container a{width:100%}}@media(min-width:768px)and (max-width:1024px -1){.card-container a{width:100%}}@media(min-width:1024px){.card-container{flex-direction:row;justify-content:space-between;margin-left:0;margin-right:0}.card-container a{width:300px}.card-container a:nth-child(2n){margin-right:80px}}.blog-post{margin-top:3.6rem;max-width:42rem}@media(min-width:1024px){.blog-post{margin-top:0}}.blog-post a{word-break:break-all}.blog-post h1,.blog-post h2,.blog-post h3,.blog-post h4,.blog-post h5,.blog-post h6{font-family:Noto Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;letter-spacing:-.025em;line-height:1.1;margin-bottom:1.5rem;margin-top:3rem}.blog-post h2,.blog-post h3,.blog-post h4,.blog-post h5,.blog-post h6{font-weight:700}.blog-post h1{font-size:1.85rem;font-weight:900}.blog-post h2{font-size:1.5rem}.blog-post h3,.blog-post h4,.blog-post h5{font-size:1.2rem}.blog-post h6{font-size:1rem}.blog-post h1,.blog-post h2,.blog-post h3{color:#2a2a2a}.blog-post header{border-bottom:1px solid #e1e1e1;margin-bottom:40px}.blog-post header .post-category{font-size:14px;justify-content:left;margin-bottom:18px}.blog-post header .post-category a,.blog-post header .post-category img{margin-right:8px}.blog-post header .post-category a:hover,.blog-post header .post-category img:hover{color:#55af7a}.blog-post header .post-category a:last-child,.blog-post header .post-category img:last-child{font-weight:500}.blog-post header>h1{color:#0e0e0e;font-weight:700;line-height:150%;margin:0}.blog-post em{color:var(--color-secondary);font-family:Sriracha;font-style:normal;letter-spacing:-.25px}.blog-post blockquote{background:#e7f2ec;border-bottom-left-radius:.25rem;border-left:.25rem solid;border-color:#55af7a;border-top-left-radius:.25rem;box-sizing:border-box;margin:0;padding:30px 24px}.blog-post blockquote>:last-child{margin-bottom:var(--spacing-0)}.blog-post blockquote>ol,.blog-post blockquote>ul{list-style-position:inside}.blog-post img{border-radius:4px}.blog-post .attach{background-color:#f5f2f0;border-radius:.4rem .4rem 0 0;display:inline-block;font-family:Consolas;font-size:1.15rem;font-weight:600;padding:.3rem .6rem;position:relative;text-align:center;top:12px}.blog-post pre{border-radius:6px}.blog-post .gatsby-highlight{margin-bottom:2rem}.blog-post p{--baseline-multiplier:0.179;--x-height-multiplier:0.35;color:#363739;font-weight:500;line-height:1.625;padding:0}.blog-post ol,.blog-post ul{list-style-image:none;list-style-position:outside;margin-bottom:2rem;margin-left:1rem;margin-right:0;padding:0}.blog-post ol li,.blog-post ul li{padding-left:0}.blog-post li>p{margin-bottom:1rem}.blog-post li :last-child{margin-bottom:0}.blog-post li>ul{margin-left:2rem;margin-top:1rem}.blog-post table{border-collapse:collapse;border-spacing:.25rem;margin-bottom:2rem;width:100%}.blog-post table thead tr th{border-bottom:1px solid #d1dce5}.blog-post-nav{margin-top:120px}.blog-post-nav ul{display:flex;justify-content:space-between;list-style:none;margin-bottom:55px;padding:0}.blog-post-nav ul li{background:#e7f2ec;border-radius:30px;color:#55af7a}.blog-post-nav ul li a{align-items:center;display:flex;font-family:Lato,sans-serif;font-weight:600;line-height:150%;padding:5px 10px}.blog-post-nav ul li a img.left{padding-right:10px}.blog-post-nav ul li a img.right{padding-left:10px}.blog-post-nav .post-category{color:#848484;cursor:default;font-size:14px;justify-content:left;margin-bottom:38px}.blog-post-nav .post-category a,.blog-post-nav .post-category img{margin-right:8px}.blog-post-nav .post-category a:hover,.blog-post-nav .post-category img:hover{color:#55af7a}.blog-post-nav .post-category a:last-child,.blog-post-nav .post-category img:last-child{font-weight:500}.blog-post-nav .card-container{display:flex;flex-direction:column}.gatsby-highlight-code-line{background-color:#022a4b;border-left:.35em solid #0687f0;display:block;margin-left:-1.2em;margin-right:-1.2em;padding-left:.75em;padding-right:1em}blockquote{color:#999}code[class*=language-],pre[class*=language-]{word-wrap:normal;-ms-overflow-style:none;background:none;color:#e0e0e0;font-family:Fira Code,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:13px;-webkit-hyphens:none;hyphens:none;line-height:1.6;overflow:-moz-scrollbars-none;-o-tab-size:2;tab-size:2;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]::-webkit-scrollbar{display:none}pre[class*=language-]{border-radius:.6em;margin:1.5em 0;overflow:auto;padding:1.2em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#212121}:not(pre)>code[class*=language-]{background:#ece5f1;border-radius:.2em;color:#006400;padding:.1em .6em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#616161}.token.punctuation{color:#e0e0e0}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#ff9100}.token.class-name,.token.constant,.token.property,.token.symbol{color:#ff0}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#b388ff}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#00e676}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}.post-footer-card__card{align-items:center;display:flex;justify-content:space-between}.post-footer-card__card .title{margin:0 0 11px}.post-footer-card__card .contents{-webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;margin:0;overflow:hidden;text-align:left;text-overflow:ellipsis;width:220px}@media(min-width:1024px){.post-footer-card__card .contents{height:74px;width:500px}}.post-footer-card__card .right{align-items:center;border:1px solid #e1e1e1;border-radius:2px;display:flex;height:120px;width:120px}.post-footer-card__card .right img{border-radius:8px;height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.post-footer-card__card .right.no-thumbnail{align-items:center;box-sizing:border-box;display:flex;justify-content:center}.post-footer-card__card .right.no-thumbnail span{color:#fff;font-size:14px;font-weight:900;line-height:1.3;overflow:hidden;text-align:center;text-overflow:ellipsis}.post-footer-card__card .right.theme-color-1{background-color:#97d4b0}.post-footer-card__card .right.theme-color-1 span{color:#e7f2ec}.post-footer-card__card .right.theme-color-2{background-color:#848484}.post-footer-card__card .right.theme-color-2 span{color:#363739}.post-footer-card__card .right.theme-color-3{background-color:#2a2a2a}.post-footer-card__card .right.theme-color-3 span{color:#b8b8b8}.comment-area{margin-top:35px;padding:0 15px}</style><meta name="generator" content="Gatsby 3.14.6"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=de05cd201386f9c4767c99fc159ed91a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=de05cd201386f9c4767c99fc159ed91a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=de05cd201386f9c4767c99fc159ed91a"/><title data-react-helmet="true">つんでれんこ | 窓屋</title><meta data-react-helmet="true" name="description" content="Windows用エンコードバッチツール"/><meta data-react-helmet="true" property="og:title" content="つんでれんこ"/><meta data-react-helmet="true" property="og:description" content="Windows用エンコードバッチツール"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="https://twitter.com/tdenc"/><meta data-react-helmet="true" name="twitter:title" content="つんでれんこ"/><meta data-react-helmet="true" name="twitter:description" content="Windows用エンコードバッチツール"/><link as="script" rel="preload" href="/webpack-runtime-9e7e72121d3e7a44113a.js"/><link as="script" rel="preload" href="/framework-006e99933f63e9d0898a.js"/><link as="script" rel="preload" href="/app-b89f2deb22d49306b4cf.js"/><link as="script" rel="preload" href="/5ab70dd3b6ca162de984cbbccc8160d1acdf6f38-33891d6b4d49eb3fe24f.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-tsx-34f9a978cdea01a1932c.js"/><link as="fetch" rel="preload" href="/page-data/エンコード/つんでれんこ/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3868140423.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/508672574.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="global-wrapper" data-is-root-path="false"><header class="header-area"><div class="header-contents"><h2 class="header-title"><a rel="noreferrer" href="/">窓屋</a></h2><div class="header-category-container"><label class="toggler"><input type="checkbox" class="toggler-checkbox"/><span class="toggler-slider toggler-slider-light"></span><span class="toggler-text toggler-text-light">light</span></label><a href="/"><h3 class="active">POSTS</h3></a><a href="/about"><h3 class="">ABOUT</h3></a><button class="green">GITHUB<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMEMzLjEzNDgzIDAgMCAzLjEzNDI1IDAgN0MwIDEwLjA5MjggMi4wMDU1IDEyLjcxNjcgNC43ODc0MiAxMy42NDI0QzUuMTM2ODMgMTMuNzA3MiA1LjI1IDEzLjQ5MDIgNS4yNSAxMy4zMDU4VjEyLjAwMjdDMy4zMDI4MyAxMi40MjYyIDIuODk3NDIgMTEuMTc2NyAyLjg5NzQyIDExLjE3NjdDMi41Nzg5MiAxMC4zNjc2IDIuMTE5ODMgMTAuMTUyMyAyLjExOTgzIDEwLjE1MjNDMS40ODQ1OCA5LjcxNzc1IDIuMTY4MjUgOS43MjcwOCAyLjE2ODI1IDkuNzI3MDhDMi44NzExNyA5Ljc3NjA4IDMuMjQxIDEwLjQ0ODcgMy4yNDEgMTAuNDQ4N0MzLjg2NTE3IDExLjUxODUgNC44Nzg0MiAxMS4yMDkzIDUuMjc4IDExLjAzMDNDNS4zNDA0MiAxMC41NzgyIDUuNTIxODMgMTAuMjY5IDUuNzIyNSAxMC4wOTQ2QzQuMTY3OTIgOS45MTY2NyAyLjUzMzQyIDkuMzE2NDIgMi41MzM0MiA2LjYzNDgzQzIuNTMzNDIgNS44NzAwOCAyLjgwNyA1LjI0NTkyIDMuMjU0NDIgNC43NTU5MkMzLjE4MjA4IDQuNTc5MTcgMi45NDIzMyAzLjg2NjkyIDMuMzIyNjcgMi45MDMyNUMzLjMyMjY3IDIuOTAzMjUgMy45MTA2NyAyLjcxNTQyIDUuMjQ4MjUgMy42MjA3NUM1LjgwNjUgMy40NjU1OCA2LjQwNSAzLjM4OCA3IDMuMzg1MDhDNy41OTUgMy4zODggOC4xOTQwOCAzLjQ2NTU4IDguNzUzNSAzLjYyMDc1QzEwLjA4OTkgMi43MTU0MiAxMC42NzY3IDIuOTAzMjUgMTAuNjc2NyAyLjkwMzI1QzExLjA1NzcgMy44Njc1IDEwLjgxNzkgNC41Nzk3NSAxMC43NDU2IDQuNzU1OTJDMTEuMTk0NyA1LjI0NTkyIDExLjQ2NiA1Ljg3MDY3IDExLjQ2NiA2LjYzNDgzQzExLjQ2NiA5LjMyMzQyIDkuODI4NTggOS45MTU1IDguMjY5OTIgMTAuMDg4OEM4LjUyMDc1IDEwLjMwNTggOC43NSAxMC43MzE2IDguNzUgMTEuMzg0OVYxMy4zMDU4QzguNzUgMTMuNDkxOSA4Ljg2MiAxMy43MTA3IDkuMjE3MjUgMTMuNjQxOEMxMS45OTY4IDEyLjcxNDkgMTQgMTAuMDkxNyAxNCA3QzE0IDMuMTM0MjUgMTAuODY1NyAwIDcgMFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMEMzLjEzNDgzIDAgMCAzLjEzNDI1IDAgN0MwIDEwLjA5MjggMi4wMDU1IDEyLjcxNjcgNC43ODc0MiAxMy42NDI0QzUuMTM2ODMgMTMuNzA3MiA1LjI1IDEzLjQ5MDIgNS4yNSAxMy4zMDU4VjEyLjAwMjdDMy4zMDI4MyAxMi40MjYyIDIuODk3NDIgMTEuMTc2NyAyLjg5NzQyIDExLjE3NjdDMi41Nzg5MiAxMC4zNjc2IDIuMTE5ODMgMTAuMTUyMyAyLjExOTgzIDEwLjE1MjNDMS40ODQ1OCA5LjcxNzc1IDIuMTY4MjUgOS43MjcwOCAyLjE2ODI1IDkuNzI3MDhDMi44NzExNyA5Ljc3NjA4IDMuMjQxIDEwLjQ0ODcgMy4yNDEgMTAuNDQ4N0MzLjg2NTE3IDExLjUxODUgNC44Nzg0MiAxMS4yMDkzIDUuMjc4IDExLjAzMDNDNS4zNDA0MiAxMC41NzgyIDUuNTIxODMgMTAuMjY5IDUuNzIyNSAxMC4wOTQ2QzQuMTY3OTIgOS45MTY2NyAyLjUzMzQyIDkuMzE2NDIgMi41MzM0MiA2LjYzNDgzQzIuNTMzNDIgNS44NzAwOCAyLjgwNyA1LjI0NTkyIDMuMjU0NDIgNC43NTU5MkMzLjE4MjA4IDQuNTc5MTcgMi45NDIzMyAzLjg2NjkyIDMuMzIyNjcgMi45MDMyNUMzLjMyMjY3IDIuOTAzMjUgMy45MTA2NyAyLjcxNTQyIDUuMjQ4MjUgMy42MjA3NUM1LjgwNjUgMy40NjU1OCA2LjQwNSAzLjM4OCA3IDMuMzg1MDhDNy41OTUgMy4zODggOC4xOTQwOCAzLjQ2NTU4IDguNzUzNSAzLjYyMDc1QzEwLjA4OTkgMi43MTU0MiAxMC42NzY3IDIuOTAzMjUgMTAuNjc2NyAyLjkwMzI1QzExLjA1NzcgMy44Njc1IDEwLjgxNzkgNC41Nzk3NSAxMC43NDU2IDQuNzU1OTJDMTEuMTk0NyA1LjI0NTkyIDExLjQ2NiA1Ljg3MDY3IDExLjQ2NiA2LjYzNDgzQzExLjQ2NiA5LjMyMzQyIDkuODI4NTggOS45MTU1IDguMjY5OTIgMTAuMDg4OEM4LjUyMDc1IDEwLjMwNTggOC43NSAxMC43MzE2IDguNzUgMTEuMzg0OVYxMy4zMDU4QzguNzUgMTMuNDkxOSA4Ljg2MiAxMy43MTA3IDkuMjE3MjUgMTMuNjQxOEMxMS45OTY4IDEyLjcxNDkgMTQgMTAuMDkxNyAxNCA3QzE0IDMuMTM0MjUgMTAuODY1NyAwIDcgMFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=-icon"/></button></div></div></header><main class="global-main"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><p class="post-category"><a href="/">HOME</a><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDcgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjAwNDI4IDExLjUyMjJMNS4zNDg0IDYuOTEzMzZDNS43MTM1NSA2LjUyNTk2IDUuNzExMTcgNS45MjA0IDUuMzQzIDUuNTM1ODhMMSAxIiBzdHJva2U9IiM1ODU4NTgiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=" alt="HOME"/><a href="/?category=エンコード">エンコード</a></p><h1 itemProp="headline">つんでれんこ</h1><p>September 07, 2022</p></header><section itemProp="articleBody"><h1>何これ？</h1>
+<ul>
+<li>動画共有サイトに動画をアップロードしたい</li>
+<li>アップロードしたいけど、エンコが面倒、ラクしたい</li>
+<li>ラクしたいけど、それでもやっぱり綺麗に仕上げたい</li>
+<li>そんなあなたに、つんでれんこ！</li>
+</ul>
+<h1>ダウンロード</h1>
+<ul>
+<li>GitHubからダウンロードしてください。Windows版は<a href="https://github.com/tdenc/TDEnc/releases">[こちら]</a>。</li>
+<li>Mac版は<a href="https://tdenc.com/%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89/TDEnc2/">[こっち]</a>からどうぞ。</li>
+</ul>
+<h1>留意点</h1>
+<ul>
+<li>つんでれんこはフリーで使用可能です。使用に際して特に制限はありません。</li>
+<li>再配布をする場合はつんでれんこおよび各依存ツールのライセンスに従ってください。</li>
+<li>つんでれんこを使った動画についてニコニコ動画のコンテンツツリーに登録をする場合は<a href="http://commons.nicovideo.jp/tree/sm7634361">[こちら]</a>の動画をご利用ください。いつも励みになっています。</li>
+</ul>
+<h1>使い方</h1>
+<h2>基本的な使い方</h2>
+<ol>
+<li>つんでれんこをダウンロードし、zipファイルを伸張（解凍）する。</li>
+<li>エンコしたい動画（と音声）を【ここに動画をD&#x26;D】.batにドラッグ＆ドロップ。</li>
+<li>つんでれんこの質問に答えていき、エンコスタート。</li>
+<li>後は全部自動で処理が進む。エンコが終わったら（ブラウザで）動画をチェック。</li>
+<li>（不満が残ったら、2.からもう一度。その際3.での選択肢を変えて再エンコード）</li>
+<li>終わり。</li>
+</ol>
+<h2>応用的な使い方</h2>
+<h3>動画の音声差し替え</h3>
+<ul>
+<li>動画ファイルと音声ファイル（wavのみ対応）を一緒にドラッグ＆ドロップすると、動画の音声を音声ファイルの音声と差し替えます。</li>
+</ul>
+<h3>連番動画を連結してエンコード</h3>
+<ul>
+<li>連番AVI（＆音声ファイル）をフォルダに入れ、フォルダごとドラッグ＆ドロップすると連番ファイルを連結して（＆音声をつけて）エンコード。</li>
+</ul>
+<h3>複数の動画を連続エンコード</h3>
+<ul>
+<li>複数の映像ファイルをドラッグ＆ドロップすると、動画をどんどん連続でエンコードしていきます。</li>
+</ul>
+<h3>質問スキップ機能</h3>
+<ul>
+<li>設定ファイル（user_setting.bat）で質問に事前に答えておくと、エンコード時の質問をスキップできます（連続エンコードと一緒に使うと吉）。</li>
+</ul>
+<h3>ファイルサイズ、解像度、FPSなどの指定</h3>
+<ul>
+<li>
+<p>設定ファイル（user_setting.bat）で以下の設定を弄ることがができます。</p>
+<ul>
+<li>総ビットレート上限</li>
+<li>MP4の容量</li>
+<li>自動リサイズの解像度</li>
+<li>FPS変換</li>
+<li>AACエンコーダ選択</li>
+<li>AACエンコードプロファイル選択</li>
+<li>デコーダ選択</li>
+<li>フルレンジ</li>
+<li>自動バージョンチェック</li>
+<li>パス数設定</li>
+<li>MP4出力先</li>
+<li>自動シャットダウン</li>
+</ul>
+</li>
+</ul>
+<h3>x264オプションの設定</h3>
+<ul>
+<li>設定ファイル（x264<em>common.bat、high.bat、low.bat、fast</em>decode.bat）でx264のオプションを設定できます。</li>
+</ul>
+<h3>Avisynthスクリプトとの連携</h3>
+<ul>
+<li>Avisynthスクリプト（avsファイル）にも対応しています。</li>
+</ul>
+<h1>よくある質問</h1>
+<h2>エンコード前</h2>
+<h3>ダウンローダが起動しない</h3>
+<ul>
+<li>お手数ですが、必要なツール・ライブラリをtoolフォルダに手動で入れて下さい。</li>
+</ul>
+<h3>アップーデートしたら動かなくなった</h3>
+<ul>
+<li>旧版をフォルダごと捨て、新版をまっさらな状態から使ってみて下さい。</li>
+<li>それでも駄目な場合：旧版をお使い下さい（不具合報告は受け付けます）。</li>
+</ul>
+<h2>エンコード中</h2>
+<h3>Avisynthがうまく動かない</h3>
+<ul>
+<li>Archivesフォルダ内のAvisynth_260.exeをダブルクリックしてインストールして下さい。</li>
+</ul>
+<h3>動画の解析に失敗する</h3>
+<ul>
+<li>
+<p>以下のことを確認してみて下さい。</p>
+<ol>
+<li>ファイル名やフォルダ名に日本語やスペース(空白)や記号が含まれていないか確認。</li>
+<li>aviファイルの場合は「WindowsMediaPlayerで」再生できるか確認。</li>
+<li>1,2のどちらでもない場合、動画形式を変えてみる（例：可逆圧縮コーデックなど）。</li>
+</ol>
+</li>
+</ul>
+<h3>エンコードに失敗する</h3>
+<ul>
+<li>
+<p>以下のことを試してみて下さい。</p>
+<ol>
+<li>ファイル名やフォルダ名から日本語やスペース(空白)や記号を除く。</li>
+<li>つんでれんこのフォルダと動画をCドライブ直下に置いてみる。</li>
+<li>動画の解像度を変えてみる（奇数は使わないで下さい）。</li>
+<li>動画の形式を変えてみる（例：可逆圧縮コーデックを使用してみる）。</li>
+</ol>
+</li>
+</ul>
+<h2>エンコード後</h2>
+<h3>MP4が見当たらない</h3>
+<ul>
+<li>MP4フォルダにない場合はエンコードに失敗しています。</li>
+<li>解決するためには「エンコード中」のトラブルシューティングをご覧下さい。</li>
+</ul>
+<h3>アスペクト比（縦横比）がおかしくなる</h3>
+<ul>
+<li>リサイズがどうしてもうまくいかない場合は直接数値で指定して下さい。</li>
+</ul>
+<h3>サイトにアップロードできない</h3>
+<ul>
+<li>容量超過の場合はuser_setting.batのDEFAULTSIZE*の数値を下げてみて下さい。</li>
+</ul>
+<h3>音声が入っていない</h3>
+<ul>
+<li>音声を別にWAV形式で出力し、映像ファイルと一緒にドラッグ＆ドロップして下さい。</li>
+</ul>
+<h3>音ズレがする</h3>
+<ul>
+<li>ズレている分だけ質問時に数値で指定して対処して下さい。</li>
+</ul>
+<h3>動画の頭だけ高速で再生され、その後音ズレする</h3>
+<ul>
+<li>付属のプレイヤーで再生して確認して下さい。</li>
+<li>一番いい確認方法は動画共有サイトのプレイヤーでの再生です。仮アップロードして確認して下さい。</li>
+</ul>
+<h1>チェンジログ</h1>
+<ul>
+<li>
+<p>2.99 (22/09/09)（復活版）</p>
+<ul>
+<li>ツールのアップデート</li>
+<li>日本語ファイルの処理の改善</li>
+<li>FlashPlayer版の動画再生バッチの削除</li>
+<li>Windows11での動作確認</li>
+</ul>
+</li>
+<li>
+<p>2.98 (18/04/27)（完結版）</p>
+<ul>
+<li>1080p制限緩和(30分、3GB)に対応</li>
+<li>neroAACencをダウンロード出来なくなったので、ffmpegに変更</li>
+<li>それに伴い、音ズレの自動修正を無効に</li>
+<li>受け付ける動画形式にy4mとWebMを追加</li>
+<li>Zenza Watchサポート（user_setting.batで設定可能）</li>
+<li>Twitterの時間制限を削除</li>
+</ul>
+</li>
+<li>
+<p>2.97 (17/07/07)（最最終版）</p>
+<ul>
+<li>Twitter投稿用動画のフレームレート変換</li>
+<li>画像＋音声からの動画作成機能のバグ修正</li>
+<li>自動リサイズ機能の変更（ニコニコの仕様変更への対応）</li>
+</ul>
+</li>
+<li>
+<p>2.96 (16/12/10)（最終版）</p>
+<ul>
+<li>一般アカウントへのニコニコ新仕様適用に対応（旧仕様エンコを無効化）</li>
+</ul>
+</li>
+<li>
+<p>2.95 (16/11/10)</p>
+<ul>
+<li>30分を超過する動画の自動リサイズの解像度を変更</li>
+</ul>
+</li>
+<li>
+<p>2.94 (16/11/09)</p>
+<ul>
+<li>一部のサイト向けエンコが動かなくなっていた不具合を修正</li>
+<li>一時ファイルの作成がごく稀に重複する不具合を修正</li>
+</ul>
+</li>
+<li>
+<p>2.93 (16/11/08)</p>
+<ul>
+<li>ニコニコ新仕様向けエンコの調整（動画の長さに合わせた解像度とビットレート）</li>
+</ul>
+</li>
+<li>
+<p>2.92 (16/10/27)</p>
+<ul>
+<li>全プレアカが新仕様の対象になったので旧仕様プレアカエンコードを無効化</li>
+<li>ニコニコ新仕様向けエンコのファイルサイズオーバーのチェック機能実装</li>
+</ul>
+</li>
+<li>
+<p>2.91 (16/10/20)</p>
+<ul>
+<li>YouTube以外のサイトではステレオ以上の音声をエンコードできないように変更</li>
+<li>Twitterに対応</li>
+<li>細かいコード整理</li>
+<li>細かいバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.90 (16/10/15)</p>
+<ul>
+<li>ツールの自動ダウンロードが失敗する問題に対処</li>
+<li>MUXエンコモードでニコニコ新仕様向けのエンコができない問題に対処</li>
+</ul>
+</li>
+<li>
+<p>2.89 (16/10/14)</p>
+<ul>
+<li>x264の更新</li>
+<li>ニコニコ新仕様向けのエンコでサンプリングレートを選択できるように変更</li>
+<li>（質問レベルを多めにしたときのみ選択可能）</li>
+</ul>
+</li>
+<li>
+<p>2.88 (16/09/18)</p>
+<ul>
+<li>再生確認をFlash PlayerからHTML5に変更</li>
+<li>（user_setting.batを弄ることでFlash Playerに戻すことも可能）</li>
+</ul>
+</li>
+<li>
+<p>2.87 (16/09/06)</p>
+<ul>
+<li>ニコニコ新仕様のビットレート処理の調整</li>
+<li>ニコニコ新仕様向けのリサイズ処理の変更</li>
+</ul>
+</li>
+<li>
+<p>2.86 (16/09/05)</p>
+<ul>
+<li>一部の動画形式においてデコードの処理を変更</li>
+<li>YouTube/ニコニコ新仕様用のプリセットを更新</li>
+<li>ニコニコ新仕様で低ビットレートの問題への暫定的な対処</li>
+</ul>
+</li>
+<li>
+<p>2.85 (16/08/30)</p>
+<ul>
+<li>一部の音声形式で音声エンコードがおかしくなる問題に対処（依存ツール絡み）</li>
+<li>その他細かい調整</li>
+</ul>
+</li>
+<li>
+<p>2.84 (16/08/29)</p>
+<ul>
+<li>32bitOSで使用した時のインストーラのバグ修正</li>
+<li>DirectShowSourceの更新</li>
+</ul>
+</li>
+<li>
+<p>2.83 (16/08/28)</p>
+<ul>
+<li>Avisynth2.6.0への更新</li>
+</ul>
+</li>
+<li>
+<p>2.82 (16/08/28)</p>
+<ul>
+<li>2.81の更新に伴うデコード処理のバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.81 (16/08/28)</p>
+<ul>
+<li>FFmpegSourceの更新</li>
+</ul>
+</li>
+<li>
+<p>2.80 (16/08/25)</p>
+<ul>
+<li>ビットレートが一定値を下回るとニコニコ新基準では低画質になる問題に対処</li>
+<li>※ 詳しくは <a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/">http://tdenc.com/blog/2016/08/22/nico-new-format-2/</a> を参照してください</li>
+</ul>
+</li>
+<li>
+<p>2.79 (16/08/22)</p>
+<ul>
+<li>8月18日から一部のユーザーに適用されている新基準に暫定的に対応</li>
+<li>x264の更新</li>
+<li>カラーマトリックスの処理を追加</li>
+<li>デノイズ機能を追加</li>
+</ul>
+</li>
+<li>
+<p>2.78 (16/05/22)</p>
+<ul>
+<li>x264の更新</li>
+<li>自動更新機能の更新</li>
+<li>ユーザーによるメッセージ変更が増えてきたので仕様を少し変更</li>
+</ul>
+</li>
+<li>
+<p>2.77 (13/11/04)</p>
+<ul>
+<li>x264の更新（取得先変更）</li>
+<li>YouTubeのパートナーシップ制廃止による用語の変更</li>
+<li>その他細かい微修正</li>
+</ul>
+</li>
+<li>
+<p>2.76 (12/10/28)</p>
+<ul>
+<li>一部の動画がエンコードできない問題に対処（Intel IYUVとか）</li>
+<li>サンプルレートの処理を修正・改善</li>
+<li>質問レベルの説明を変更（「おおい」を選んでわからなくなる人が「おおい」ので）</li>
+<li>その他細かい微修正</li>
+</ul>
+</li>
+<li>
+<p>2.75 (12/10/27)</p>
+<ul>
+<li>一部の解像度の動画がエンコードできない問題に対処</li>
+<li>プリセット質問の誤植を修正（エンコードには影響なし）</li>
+</ul>
+</li>
+<li>
+<p>2.74 (12/10/25)</p>
+<ul>
+<li>一部の色空間の動画がエンコードできない問題に対処</li>
+<li>ニコニコ用プリセットでのCRFの値を調整（ファイルサイズ抑制のため）</li>
+<li>プリセットsでもエコ回避を選択可能に（質問レベル「おおい」のみ）</li>
+<li>YouTube用のエンコでファイルサイズが膨れる問題に対処（設定ファイルのミス）</li>
+<li>品質基準エンコ質問の表示で抜けていた部分を追加</li>
+</ul>
+</li>
+<li>
+<p>2.73 (12/10/24)</p>
+<ul>
+<li>一部の解像度・色空間の動画で映像が崩れる問題に対処</li>
+<li>質問の表示を一部改善（音声ビットレートの質問時など）</li>
+</ul>
+</li>
+<li>
+<p>2.72 (12/10/23)</p>
+<ul>
+<li>ニコニコ動画(Qwatch) の仕様変更に対応(プリセットver20)</li>
+<li>自動リサイズのデフォルト解像度を変更（Qwatchの大画面に対応）</li>
+<li>上記変更に対応するため解像度計算方法を変更（幅基準から高さ基準に変更）</li>
+<li>再生チェックプレイヤーのサイズを変更（高さ480pixels）</li>
+<li>質問関係を一から見直し、改善（見た目を少しだけ変更、質問項目の刷新）</li>
+<li>質問量レベル分け制導入（「すこし」「ふつう」「おおい」）</li>
+<li>すこし：最低限のやりとりでエンコード可能（2.71までのプリセットaと類似）</li>
+<li>ふつう：2.71までと似ているが、以前より質問が少し減少（増えた項目もある）</li>
+<li>おおい：誤解しやすい・理解しづらいものなどはココ、x264のログも表示</li>
+<li>新規質問（リサンプリング、プレイヤー互換性、強制デインターレース）</li>
+<li>YouTubeとニコニコを明確に分岐（従来の「プリセットごちゃまぜ状態」の改善）</li>
+<li>無音のときに音声ビットレートを質問しないように変更</li>
+<li>質問リセット機能を廃止（質問量レベル分け制とuser_setting.batとの兼ね合い）</li>
+<li>プレアカエンコでのビットレート指定で0（限界ビットレート）を選択可能に</li>
+<li>ただし目標値が閾値を超えると画質重視とみなして品質基準エンコに切り替わる</li>
+<li>閾値はuser_setting.batで調整可能（デフォルトでは2000kbps）</li>
+<li>指定ビットレートが限界値をオーバーしたとき、自動で限界値に調整するように変更</li>
+<li>3pass判定を緩和するためにビットレートにマージンを設定（初期値5kbps）</li>
+<li>品質基準(crf)エンコードをYouTube以外のプリセットでも利用可能に</li>
+<li>映像に合わせたビットレートにするためにcrfエンコードを利用可能に</li>
+<li>ビットレートがオーバーした場合はビットレート基準エンコに自動で切り替わる（その場合はファイルサイズに合わせた限界ビットレートを採用）</li>
+<li>連続エンコードでリサイズの設定が2番目以降反映されないバグを修正</li>
+<li>サンプルレートが96000Hzを超えるときに自動的に48000Hzにリサンプリング</li>
+<li>最終確認画面の整理（表示項目追加、見た目の整理）</li>
+<li>user_setting.batの整理（注意書きの追加・整理、リサイザ設定追加）</li>
+<li>Avisynthをシステムにインストールするように変更（レジストリチェックなどは廃止）</li>
+<li>アンインストーラ削除</li>
+<li>アンインストールするときはフォルダごと消してください</li>
+<li>Avisynthをアンインストールしたい場合はWindowsの「コントロールパネル」から「プログラムの追加・削除」を選択してアンインストールしてください</li>
+<li>x264の更新</li>
+<li>FFMpegSourceの更新</li>
+<li>MediaInfoの更新</li>
+<li>強制1passモードでビットレートオーバー時にエラーを吐くように変更</li>
+<li>一部の動画の処理をFFMSに変更（MPEG2TSとか、でもクラッシュしやすい）</li>
+<li>コード整理（エラー判定の強化、冗長なコードの整理）</li>
+</ul>
+</li>
+<li>
+<p>2.71 (12/05/01)</p>
+<ul>
+<li>ニコニコ動画(Zero)の仕様変更に対応(プリセットver19)</li>
+<li>リサイズのデフォルト解像度を変更</li>
+<li>一般アカウントの解像度上限を変更</li>
+<li>再生チェックプレイヤーのサイズを変更</li>
+<li>ファイル名のチェック機能を追加</li>
+<li>x264の更新</li>
+<li>一時ファイルの削除方法を改善</li>
+<li>YouTubeプリセット時に容量チェックをスキップ</li>
+</ul>
+</li>
+<li>
+<p>2.70 (12/04/15)</p>
+<ul>
+<li>メッセージの微修正</li>
+<li>変数の整理</li>
+<li>動画のキャッシュ廃止時の漏れを修正</li>
+<li>プリセットｓ時の元動画の上書き対策</li>
+<li>ビットレート表示の改善</li>
+<li>最終確認でnと答えた時の設定リセットを修正</li>
+<li>最終確認でyと答えた時の処理を改善</li>
+<li>typo修正</li>
+</ul>
+</li>
+<li>
+<p>2.69 (12/04/13)</p>
+<ul>
+<li>user_setting.batの処理を改善</li>
+</ul>
+</li>
+<li>
+<p>2.68 (12/04/12)</p>
+<ul>
+<li>YouTubeに対応（プリセットy）</li>
+<li>プリセットのバージョンを18に更新</li>
+<li>x264の更新</li>
+<li>低ビットレートでのモノラル音源エンコード失敗に対処</li>
+<li>音声プロファイルの手動設定が上書きされるバグを修正</li>
+<li>MS Video 1/Cinepackコーデックでの映像の崩壊に対処</li>
+<li>MPEGのデコーダをffmsに変更</li>
+<li>各種設定ファイルのダウンロードチェックを改善</li>
+<li>一枚絵と音声から動画が作成できないバグを修正</li>
+<li>一枚絵と音声から動画を作成する際のfpsを10に変更</li>
+<li>再生確認プレイヤーの縦サイズを改善</li>
+<li>動画解析の表示を改善</li>
+<li>動画解析失敗時に自動で他のデコーダに変えるように改善</li>
+<li>動画解析失敗時のエラーメッセージの抑制</li>
+<li>最終確認でnと答えたときの設定リセットを改善</li>
+<li>自動リサイズ関係の変数の設定を改善</li>
+<li>一般アカウントの解像度上限に合わせたチェックを実装</li>
+<li>デフォルトのブラウザ起動の挙動の改善</li>
+<li>nvvファイルのサポートの停止</li>
+<li>（今後はNiVEからの出力はDirectShow出力プラグインでお願いします）</li>
+<li>そのほか微修正</li>
+</ul>
+</li>
+<li>
+<p>2.67 (12/02/09)</p>
+<ul>
+<li>エコノミーモード回避関係の修正漏れ</li>
+</ul>
+</li>
+<li>
+<p>2.66 (12/02/08)</p>
+<ul>
+<li>user_setting.batに関する処理の改善</li>
+</ul>
+</li>
+<li>
+<p>2.65 (12/02/08)</p>
+<ul>
+<li>エコノミーモード回避の上限変更に対応（2/8の仕様変更）</li>
+<li>連番AVIの連結の判定の改善（大文字拡張子対応）</li>
+</ul>
+</li>
+<li>
+<p>2.64 (12/01/31)</p>
+<ul>
+<li>MediaInfoのアップデート</li>
+<li>ffmsのアップデート</li>
+<li>初回起動のバージョンチェックの改善</li>
+<li>再生時間の小数問題の追加修正</li>
+</ul>
+</li>
+<li>
+<p>2.63 (12/01/30)</p>
+<ul>
+<li>一部の動画のキャッシュ処理を廃止（事前処理の速度改善）</li>
+<li>一部の動画で3pass判定時に落ちる問題に対処（再生時間の小数問題）</li>
+</ul>
+</li>
+<li>
+<p>2.62 (12/01/24)</p>
+<ul>
+<li>日時フォーマットに起因する問題に対処</li>
+</ul>
+</li>
+<li>
+<p>2.61 (12/01/22)</p>
+<ul>
+<li>一部の動画でリサイズが有効にならない問題に対処</li>
+<li>一部の動画の再生チェックで動画の端が切れないよう、プレイヤーサイズを固定</li>
+</ul>
+</li>
+<li>
+<p>2.60 (12/01/20)</p>
+<ul>
+<li>インストーラの改善</li>
+<li>x264の更新（バグフィクス）</li>
+<li>リサイズの判定の改善</li>
+<li>再生チェックプレイヤーのリサイズの設定の修正</li>
+</ul>
+</li>
+<li>
+<p>2.59 (12/01/18)</p>
+<ul>
+<li>プリセットa（自動設定モード）実装</li>
+</ul>
+</li>
+<li>
+<p>2.58 (12/01/18)</p>
+<ul>
+<li>x264の更新（高速化）</li>
+<li>再生チェックのプレイヤーサイズを改善</li>
+<li>エラーメッセージの改善</li>
+<li>縦解像度のみのリサイズの際にエンコードが失敗するバグを修正</li>
+<li>縮小リサイズメソッドの変更（以前の仕様に戻した）</li>
+<li>ツールインストール時の一時ファイルをきちんと削除するように改善</li>
+</ul>
+</li>
+<li>
+<p>2.57 (12/01/14)</p>
+<ul>
+<li>多重起動（エンコ中に別の動画をさらにエンコ）に対応</li>
+<li>再生チェックのプレイヤーサイズをニコニコ動画プレイヤーに近くした</li>
+</ul>
+</li>
+<li>
+<p>2.56 (12/01/11)</p>
+<ul>
+<li>x264の更新（バグフィクス、高速化、オプション変更）</li>
+<li>上記変更に伴いオプションを少し調整（user_setting.batには影響なし）</li>
+</ul>
+</li>
+<li>
+<p>2.55 (12/01/01)</p>
+<ul>
+<li>curlのオプションの改善</li>
+<li>ツールの更新時にx264だけは必ず毎回更新するように変更</li>
+<li>x264のバージョンチェックを分離（今後はx264のみの更新ができるように）</li>
+</ul>
+</li>
+<li>
+<p>2.54 (11/12/24)</p>
+<ul>
+<li>自動アップデートのバグ修正</li>
+<li>ビットレート指定時の処理の改善</li>
+<li>サンプルレートの維持を可能に</li>
+<li>自動更新後も変更された設定を維持するuser_setting.batを追加</li>
+<li>(今後はdefault_setting.batではなくこっちをいじってください)</li>
+</ul>
+</li>
+<li>
+<p>2.53 (11/12/11)</p>
+<ul>
+<li>自動アップデート機能を実装</li>
+</ul>
+</li>
+<li>
+<p>2.52 (11/10/29)</p>
+<ul>
+<li>x264の更新</li>
+<li>一部の動画で音声エンコが失敗する問題に対処(リサンプリング処理)</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.51 (11/09/11)</p>
+<ul>
+<li>デコーダとしてqt(QuickTime)を選択可能に</li>
+</ul>
+</li>
+<li>
+<p>2.50 (11/09/11)</p>
+<ul>
+<li>qtaacencの更新</li>
+<li>FFMpegSourceのフォルダ構造の変更に対応</li>
+</ul>
+</li>
+<li>
+<p>2.49 (11/09/10)</p>
+<ul>
+<li>x264の更新(主に高速化)</li>
+<li>FFMpegSourceの更新</li>
+<li>一部の動画で映像エンコができない問題に(さらに)対処</li>
+</ul>
+</li>
+<li>
+<p>2.48 (11/08/01)</p>
+<ul>
+<li>x264の更新</li>
+<li>FFMpegSourceの更新</li>
+<li>連続エンコの改善（一部の変数をリセット）</li>
+<li>映像+wavエンコの改善（映像コーデックチェック）</li>
+<li>一部の動画で映像エンコができない問題に対処</li>
+</ul>
+</li>
+<li>
+<p>2.47 (11/07/28)</p>
+<ul>
+<li>x264の更新</li>
+<li>プリセットxの更新</li>
+<li>プリセットsが不正に選択されたときの処理を改善</li>
+<li>一部の動画（Bandicam等）でエンコが終了しない問題に対処</li>
+<li>mp4のファイル容量オーバーのときのメッセージを変更</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.46 (11/07/20)</p>
+<ul>
+<li>プロセス表示の改善</li>
+<li>一部動画の連続エンコ時に音声エンコで止まるバグを修正</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.45 (11/07/18)</p>
+<ul>
+<li>プリセット表示のバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.44 (11/07/18)</p>
+<ul>
+<li>x264の更新</li>
+<li>画像+wavの時に必要に応じて自動クロップ</li>
+<li>プリセットsの修正（半角スペース問題、ビットレート表示）</li>
+<li>プロセス表示の仕様変更（新規ウィンドウを開かなくした）</li>
+</ul>
+</li>
+<li>
+<p>2.43 (11/07/17)</p>
+<ul>
+<li>自動クロップのバグを修正</li>
+<li>プリセットsを追加（mp4+wavの時に選択可、歌ってみたカテ向け）</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.42 (11/07/01)</p>
+<ul>
+<li>プリセットxの更新(互換性の問題に対処)</li>
+<li>動画の音声出力ツールをwaviからavs2pipeに変更</li>
+<li>一部の形式の動画で音声が消える問題に対処</li>
+<li>プロセス表示の改善</li>
+<li>自動更新時のURLの修正</li>
+<li>その他細かい修正・変更</li>
+</ul>
+</li>
+<li>
+<p>2.41 (11/06/22)</p>
+<ul>
+<li>x264.exeのURL変更に対応</li>
+<li>x264の更新（速度・画質改善）</li>
+<li>上記更新のためオプションを変更（フェード改善）</li>
+<li>エコノミーモードのビットレート変更</li>
+<li>リサイズのデフォルトの解像度を横640に変更</li>
+<li>上記変更のため自動リサイズの処理を若干変更</li>
+<li>一部の環境でregeditがうまく動かない問題に対処</li>
+<li>自動バージョンチェックの機能を再びtrueに</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.40 (10/05/13)</p>
+<ul>
+<li>FFMpegSourceのバージョンを2.00b10に戻す</li>
+<li>一部の処理で、プロセスが進行していることを表示</li>
+<li>自動バージョンチェック機能の設定をデフォルトでfalseに</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.39 (10/05/06)</p>
+<ul>
+<li>x264更新</li>
+<li>MediaInfo更新</li>
+<li>解像度が奇数のとき、偶数になるようにクロップするように変更</li>
+<li>自動リサイズに関するバグを修正（リサイザもついでに変更）</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.38 (10/04/30)</p>
+<ul>
+<li>x264更新</li>
+<li>VFRの動画に対応（今までは適当に誤魔化していました（笑</li>
+<li>一部動画の音声デコードを変更（2.37で反映し忘れてたorz）</li>
+<li>その他細かい修正</li>
+</ul>
+</li>
+<li>
+<p>2.37 (10/04/29)</p>
+<ul>
+<li>x264更新</li>
+<li>台詞を差し替え可能に</li>
+<li>連番AVI連結機能のバグ修正</li>
+<li>一部動画の音声デコードを変更（FFMpegSourceのバグ修正版正式リリース待ち）</li>
+</ul>
+</li>
+<li>
+<p>2.36 (10/04/15)</p>
+<ul>
+<li>プリセット更新（バージョン11、不具合解消、プリセットx追加）</li>
+<li>MediaInfoの更新</li>
+</ul>
+</li>
+<li>
+<p>2.35 (10/04/12)</p>
+<ul>
+<li>x264の更新</li>
+<li>プリセット更新（バージョン10、バランスと速度重視を若干高速化）</li>
+<li>MP4Boxの更新（ついでにMUXオプションを少し調整）</li>
+<li>音声エンコードの方法をを若干変更（パイプ処理を廃止）</li>
+<li>起動時の挙動を若干変更（tool_url.bat関係）</li>
+</ul>
+</li>
+<li>
+<p>2.34 (10/03/28)</p>
+<ul>
+<li>x264の更新</li>
+<li>プリセット更新（バージョン９）</li>
+<li>画像＆WAVモードでリサイズが効かなくなっていたバグを修正</li>
+<li>動画＆WAVモードで一部の動画形式の場合解析に失敗するバグを修正</li>
+<li>連続エンコモードの音声処理のバグを修正</li>
+<li>ムービーチェックの有無を選択可に（default_setting.batで）</li>
+<li>音声処理を若干変更</li>
+<li>colormatrix関係の処理を追加</li>
+</ul>
+</li>
+<li>
+<p>2.33 (10/03/20)</p>
+<ul>
+<li>x264の更新</li>
+<li>x264のオプションを更新</li>
+<li>MP4Boxの更新</li>
+<li>FFMpegSourceの更新</li>
+<li>MediaInfoの更新（サーバの転送量節約のため同梱も解除）</li>
+<li>qtaacenc更新（ついでにQuickTimeで低ビットレートでのエンコで–heを指定）</li>
+<li>neroAacEnc更新</li>
+<li>音声エンコードを微修正（上記更新の影響）</li>
+<li>D&#x26;Dされたものがファイルかフォルダかの判定方法を変更</li>
+<li>プレイヤーの起動バッチ微修正（’をファイル名に含む場合のバグ修正）</li>
+<li>分割AVIのファイル名にスペースが入っても大丈夫なように修正</li>
+<li>一部ファイルで連続エンコードができないバグを修正</li>
+<li>画像＆音声のエンコードのバグ修正（プリセット変更の反映し忘れ）</li>
+<li>３パス判定を若干修正</li>
+<li>ダウンローダをcurlに変更（.Net Framework依存解消）</li>
+<li>解像度の処理を修正（質問時に直接数値での指定を可能に）</li>
+<li>コードをかなり整理</li>
+</ul>
+</li>
+<li>
+<p>2.32 (10/02/12)</p>
+<ul>
+<li>強制3パスエンコードのバグ修正</li>
+<li>連続エンコードモードのバグ修正</li>
+<li>分割AVI連結機能実装（使い方はサイトの「つかいかた」を「熟読」してください）</li>
+<li>MP4Boxの更新（ついでに音ズレ修正をコンテナ規格ではなくプレイヤー側の挙動に合わせた）</li>
+<li>MediaInfoの更新（配布形式も変更）</li>
+<li>DevILの配布形式を変更</li>
+<li>qtaacencの更新</li>
+<li>プレイヤー起動バッチ微修正</li>
+<li>エンコード後に自動でブラウザチェックを起動するように変更</li>
+<li>その他細かいバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.31 (10/02/07)</p>
+<ul>
+<li>音声エンコでqtaacencを選択可能に（QuickTime7.6.5以降必須、default_setting.batを編集して使用）</li>
+<li>その他もろもろの微修正</li>
+</ul>
+</li>
+<li>
+<p>2.30 (10/02/06)</p>
+<ul>
+<li>もろもろバグフィクス</li>
+<li>x264.nlのサーバダウンに対応</li>
+</ul>
+</li>
+<li>
+<p>2.29 (10/02/06)</p>
+<ul>
+<li>プリセットを更新（バージョン6に移行）</li>
+<li>プリセットをダウンロードして上書きする形式から、選択する形式に変更</li>
+<li>ファイルの出力先を指定可能に（default_setting.bat）</li>
+<li>デコーダを指定可能に（default_setting.bat）</li>
+<li>音ズレ処理機能強化（default_setting.bat、自動・手動・無効を指定可能に）</li>
+<li>b-pyramidのサポート再開</li>
+<li>その他x264のオプションを自由に指定できる項目を追加</li>
+<li>NeroAacEncのバージョンアップに対応</li>
+<li>x264のリビジョンを固定（x264の更新チェック機能廃止）</li>
+<li>特定の条件でtool_url.batが消えるバグを修正</li>
+<li>DVフォーマットをFFMpegSourceでデコードするように変更（音ズレ対策）</li>
+<li>エンコ終了後に自動シャットダウンする機能実装</li>
+<li>エンコ終了後MP4フォルダを開くように（自動シャットダウン機能が有効だと機能しません）</li>
+<li>nvvサポートを停止（seraphy氏版warpsharp.dllをtoolフォルダに入れれば一応使えます）</li>
+<li>ほとんど機能していなかったエラーログ機能を削除</li>
+<li>低再生負荷エンコード設定が上手く反映されないバグを修正</li>
+<li>色空間変換を微修正</li>
+<li>プレアカ用エンコの最大ビットレートに関するバグを修正</li>
+<li>MP4フォルダに簡易プレイヤー起動バッチ同梱（作成に際しアドバイスを下さったcocoonPに感謝）</li>
+<li>コードの重複などを大幅に整理</li>
+</ul>
+</li>
+<li>
+<p>2.28 (09/12/19)</p>
+<ul>
+<li>AVIとWAVのMUXができないバグを修正</li>
+<li>一般アカ用のエコ回避モードのバグを修正</li>
+<li>NVVファイルのエンコードのスクリプトの微修正</li>
+<li>DVフォーマットとDxtoryフォーマットに仮対応</li>
+<li>その他テキストの微修正</li>
+</ul>
+</li>
+<li>
+<p>2.27 (09/12/07)</p>
+<ul>
+<li>プリセットバージョンチェック機能の修正</li>
+<li>AVIのデコードに失敗した時ループになるバグ修正</li>
+<li>MUXモード（音声差し替え）のバグ修正</li>
+<li>その他テキストの微修正</li>
+</ul>
+</li>
+<li>
+<p>2.26 (09/12/06)</p>
+<ul>
+<li>x264の更新</li>
+<li>x264のバージョンチェック機能の修正</li>
+<li>質問スキップ機能のバグ修正</li>
+<li>エコ回避の条件分岐のバグ修正</li>
+<li>WMVやMP4でのデコード処理を強化</li>
+</ul>
+</li>
+<li>
+<p>2.25 (09/12/05)</p>
+<ul>
+<li>MUXモード（音声差し替え）のバグ修正</li>
+<li>連続エンコモードで3パス判定がうまく行かないバグを修正</li>
+<li>質問の順番を変更・条件分岐を強化</li>
+<li>プレアカ用のエンコのときに上限を超えてビットレートを指定できてしまうバグを修正</li>
+<li>ツールのチェックのときにx264のエラーが表示されていた問題を解決</li>
+</ul>
+</li>
+<li>
+<p>2.24 (09/12/02)</p>
+<ul>
+<li>x264のバージョンチェックを分離(x264のみの更新機能実装)</li>
+<li>AVSファイルの処理方法の修正</li>
+</ul>
+</li>
+<li>
+<p>2.23 (09/12/01)</p>
+<ul>
+<li>x264の更新</li>
+<li>x264のバージョンチェックを若干修正</li>
+<li>プレアカエンコの場合、高解像度かつ高FPSについての警告を出すように変更</li>
+<li>動画情報取得部分の微修正</li>
+<li>weightpのサポートを一時的に停止(FlashPlayer10.1対応待ち)</li>
+</ul>
+</li>
+<li>
+<p>2.22 (09/11/28)</p>
+<ul>
+<li>x264の更新</li>
+<li>一般アカ用のエンコでx264の設定が読めないくなるバグの修正(2.20のバグ)</li>
+<li>ツールダウンロード時に最新のURLを反映しなくなっていたので修正(大した影響はない)</li>
+</ul>
+</li>
+<li>
+<p>2.21 (09/11/27)</p>
+<ul>
+<li>AVIの音声が正常にエンコードされない問題に対処(2.20のバグ)</li>
+<li>更新チェック時に特定バージョンをスキップできる機能を実装</li>
+<li>変数の整理</li>
+<li>誤植修正</li>
+</ul>
+</li>
+<li>
+<p>2.20 (09/11/26)</p>
+<ul>
+<li>x264.exeの更新</li>
+<li>MediaInfo.exeの更新</li>
+<li>プリセット更新(–weightp実装、いくつかの質問スキップ機能の追加)</li>
+<li>プレアカかつ非エコ回避のときのみ低再生負荷エンコードの質問をするように変更</li>
+<li>AVSファイルの動画情報取得方法の微修正(無駄なデコード処理の削除)</li>
+<li>NVVファイルの動画情報取得方法の微修正(無駄なデコード処理の削除)</li>
+<li>MP4Boxの差し替え(muken氏ビルド版に変更)</li>
+<li>Avisynthが正常に動かないとき、対処法を表示するよう変更(主にWindows7、64bitOS向け)</li>
+<li>他に細かなバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.19 (09/10/29)</p>
+<ul>
+<li>ニコニコ動画(9)に対応(プレアカのときはビットレート上限を決める質問を表示)</li>
+<li>一部動画の音声デコードをFFAudioSourceに変更</li>
+<li>プリセットが古いとき、警告なしにウィンドウが閉じてしまう問題を修正</li>
+<li>x264.exeの更新</li>
+<li>プリセットの更新(低デコード負荷オプション(low_decode.bat)を作成)</li>
+<li>エコ回避以外のときは低再生負荷エンコードをするか質問</li>
+</ul>
+</li>
+<li>
+<p>2.18 (09/10/24)</p>
+<ul>
+<li>エンコード後に一時ファイルが正常に削除されないバグを修正</li>
+<li>FFMpegSourceを使用する際の挙動を変更(インデックス作成のスキップ)</li>
+<li>解像度のバグ修正</li>
+<li>64bitOSでavisynth.dllファイルの検索がうまく機能しない問題を修正</li>
+</ul>
+</li>
+<li>
+<p>2.17 (09/10/22)</p>
+<ul>
+<li>x264.exeの更新</li>
+<li>上記の更新によりb-pyramidのサポートを一時的に停止(次回プリセット更新まで)</li>
+<li>動画の分析方法を若干変更(一時ファイルの削減)</li>
+<li>一部動画で連続エンコードがうまくいかないバグを修正</li>
+<li>アスペクト比の処理方法を変更</li>
+<li>音声デコーダを変更(音声がエンコードされない問題への対処)</li>
+<li>AVSファイルの処理方法の変更</li>
+<li>AACエンコードのプロファイル選択の微修正</li>
+<li>コードの整理</li>
+</ul>
+</li>
+<li>
+<p>2.16 (09/10/18)</p>
+<ul>
+<li>一部動画で音声がエンコードされないバグを修正(FFMpegSourceの仕様変更)</li>
+<li>プリセット更新(画質超重視のパスの設定ミス修正)</li>
+<li>一般アカかつエコ回避を選択したときに強制終了するバグを修正</li>
+<li>AACエンコードのプロファイルを指定できるように変更(default_setting.batを編集)</li>
+<li>フルレンジ対応(default_setting.batを編集)</li>
+<li>movをサポート(実験的です。情報お待ちしています)</li>
+<li>不要な音声処理の削除</li>
+<li>映像エンコードが失敗したときにも音声エンコードに進んでしまうバグの修正</li>
+</ul>
+</li>
+<li>
+<p>2.15 (09/10/17)</p>
+<ul>
+<li>容量の大きいWMV、MP4等でインデックスが作成されないバグを修正</li>
+<li>FFMpegSourceでのインデックス作成をffmsindex.exeに変更(インストーラも更新)</li>
+<li>バッチやテキストなどの整理(typoなど)</li>
+</ul>
+</li>
+<li>
+<p>2.14 (09/10/17)</p>
+<ul>
+<li>SourceForgeサーバを変更</li>
+<li>x264.exeファイルのチェックの簡略化</li>
+<li>x264.exeの更新</li>
+<li>x264のオプションを更新</li>
+<li>プリセット更新(速度重視、画質超重視のデフォルトをそれぞれ1パス強制、パス数自動判定に、等)</li>
+<li>起動時にプリセットのバージョンを確認するように変更</li>
+<li>MediaInfo.exeとyadif.dllを更新</li>
+<li>レジストリチェックの簡略化(バッチも分離)</li>
+<li>findコマンド使用の際のバグを再修正(findstrに置き換え)</li>
+<li>ダウンローダ更新</li>
+<li>NVVファイルのサポートを再開(いくつかのファイルを同梱。ライセンス文の修正)</li>
+<li>一部のコーデックで音ズレする問題に対処(したつもり)</li>
+<li>起動バッチを統合(連続エンコバッチとWAVとのMUXバッチの削除)</li>
+<li>画像と音声のMUXのバグ修正(解像度関連)</li>
+<li>画像音声MUXと動画音声MUXのバッチの統合</li>
+<li>AVSファイル出力の高速化</li>
+<li>不必要な色空間変換の削除(高速化)</li>
+<li>FFMpegSourceが日本語名のファイルに非対応の問題に対処(テンポラリファイルを作成してエラー回避)</li>
+<li>全角のスペースが使われている場合に対処法を表示するように変更</li>
+<li>ビットレートオーバーの判定をより正確なものに変更</li>
+<li>リサイズフィルタの変更(高速化)</li>
+<li>MP4フォルダに既に同名ファイルがあった場合、以前のものをold.mp4としてバックアップするように変更</li>
+<li>インターレース処理の修正(MBAFF)</li>
+</ul>
+</li>
+<li>
+<p>2.13 (09/09/26)</p>
+<ul>
+<li>SourceForgeサーバ移転に対応</li>
+<li>MediaInfo.exeとyadif.dllを更新</li>
+<li>x264.exeを更新(2pass突入時に落ちるバグもこれで修正されるかもしれません)</li>
+<li>7zipとMP4Boxの配布形式を変更(ライセンス文の修正も含む)</li>
+<li>findコマンド使用の際のバグ修正(findstrに置き換え)</li>
+<li>ダウンローダ変更(ダウンロードに失敗した際に異常終了するため)</li>
+<li>ツール類のダウンロード失敗時に無限ループするバグの修正</li>
+<li>ツール類のダウンロードURLの設定方法を変更</li>
+<li>ツール類を正常にダウンロードできたかチェックする機能実装</li>
+<li>インストーラの挙動を微修正</li>
+<li>エンコードの開始時にすべてのツール類が揃っているか確認するよう変更</li>
+<li>対応ファイル形式かどうかのチェック方法を微修正</li>
+<li>バッチ整理</li>
+</ul>
+</li>
+<li>
+<p>2.12 (09/08/19)</p>
+<ul>
+<li>SourceForgeサーバ移転に対応</li>
+<li>MediaInfo.exeとyadif.dllとx264.exeを更新</li>
+<li>音ズレに関して若干の微調整</li>
+</ul>
+</li>
+<li>
+<p>2.11 (09/08/13)</p>
+<ul>
+<li>FFMpegSourceの鯖が不安定なときは別鯖(GoogleCode)から落とすようにダウンロードスクリプトを変更</li>
+<li>起動時にネットに繋がってない場合は自動更新チェックをオフにするように警告するよう仕様変更</li>
+<li>プリセットaとfを使用したときに不正落ちするバグを修正(プリセットの更新ではなく本体の修正)</li>
+<li>連続エンコードの際にバージョンチェック・エンコードが正常に行われないバグを修正</li>
+</ul>
+</li>
+<li>
+<p>2.10 (09/08/12)</p>
+<ul>
+<li>FFMpegSourceのリンク切れを解消(バージョンアップ)</li>
+<li>配布形式を変更(本体とプリセットを別に配布)</li>
+<li>x264のオプションを変更(速度超重視は強制1passをデフォルトに、等)</li>
+<li>バッチスクリプトの微修正</li>
+</ul>
+</li>
+<li>
+<p>2.09 (09/08/11)</p>
+<ul>
+<li>強制3passモードのバグ修正</li>
+<li>ダウンロードスクリプトのバグ修正</li>
+<li>バージョンチェック方法を変更</li>
+<li>バッチスクリプトの整理</li>
+</ul>
+</li>
+<li>
+<p>2.08 (09/08/10)</p>
+<ul>
+<li>強制3passモードのバグ修正</li>
+<li>自動更新チェック機能の挙動を変更</li>
+<li>MP4のサイズ指定で大きい数値を割り当てると起きるバグを修正</li>
+</ul>
+</li>
+<li>
+<p>2.07 (09/08/10)</p>
+<ul>
+<li>自動更新チェックのバグ修正</li>
+<li>バッチの修正</li>
+</ul>
+</li>
+<li>
+<p>2.06 (09/08/10)</p>
+<ul>
+<li>強制1pass2passモードのバグ修正</li>
+<li>映像と音声のMUX機能のバグ修正</li>
+</ul>
+</li>
+<li>
+<p>2.05 (09/08/10)</p>
+<ul>
+<li>配布場所を変更(ホームページ開設)</li>
+<li>自動更新チェック機能実装</li>
+<li>ダウンローダを変更</li>
+<li>強制的にパス数を設定できるように変更</li>
+<li>x264を更新</li>
+<li>x264のオプションを更新(1passのオプションをx264のデフォルトに設定、–no-mbtree追加、など)</li>
+</ul>
+</li>
+<li>
+<p>2.04 (09/07/28)</p>
+<ul>
+<li>ダウンロードスクリプトの挙動を若干変更</li>
+<li>x264を更新</li>
+<li>x264のオプションを更新(–me-prepass廃止、–no-deblock使用を可能に、など)</li>
+<li>テキスト等の誤植を修正</li>
+</ul>
+</li>
+<li>
+<p>2.03 (09/07/27)</p>
+<ul>
+<li>x264のバイナリをx264.nlから取得するように変更</li>
+<li>x264を更新</li>
+<li>x264のオプションを更新</li>
+<li>細かいバグフィクス</li>
+</ul>
+</li>
+<li>
+<p>2.02 (09/07/27)</p>
+<ul>
+<li>上限ビットレートを変更(プレアカ1000kbps、一般アカ600kbps、エコ回避230kbps)</li>
+<li>上限ファイル容量を変更できるように仕様変更(ファイル容量オーバー対策)</li>
+<li>映像ファイルと音声ファイルを同時にドラッグ＆ドロップできるバッチを追加</li>
+<li>デインターレーサを変更</li>
+<li>ダウンロードスクリプトとインストールスクリプトの挙動を若干変更</li>
+<li>エンコ終了時にMP4の情報を表示するように仕様変更</li>
+<li>WAV以外の音声フォーマットのサポートを停止</li>
+<li>AVSファイルがエンコできないバグを修正</li>
+<li>音声ファイルのデコーダを一部変更</li>
+</ul>
+</li>
+<li>
+<p>2.01 (09/07/22)</p>
+<ul>
+<li>ffmpegsourceの配布場所変更に対応</li>
+<li>連続エンコードモードのバグ修正</li>
+<li>書類関係の不備修正(ダウンロード場所等)</li>
+</ul>
+</li>
+<li>
+<p>2.00 (09/07/21)</p>
+<ul>
+<li>初回起動時にインストーラを起動するように仕様変更</li>
+<li>一部の環境でx264が異常終了する問題に対処</li>
+<li>音声ビットレートを0kbpsに指定したときにエンコが異常終了するバグを修正</li>
+<li>設定確認時のバグを修正</li>
+<li>x264を更新</li>
+<li>x264のオプションを更新</li>
+<li>ライセンス明記</li>
+</ul>
+</li>
+<li>
+<p>1.03 (09/07/19)</p>
+<ul>
+<li>緊急バグフィクス(BGM作成モードのバグ)</li>
+<li>音声のデコード方式を変更</li>
+<li>依存関係がなくなったツール類の削除＆スクリプト整理</li>
+</ul>
+</li>
+<li>
+<p>1.02 (09/07/18)</p>
+<ul>
+<li>緊急バグフィクス(silence.exeのバグ)</li>
+</ul>
+</li>
+<li>
+<p>1.01 (09/07/18)</p>
+<ul>
+<li>FPS変換機能追加</li>
+<li>エンコ後の動画の容量上限を100MBと40MBから99.4MBと39.7MBに変更</li>
+<li>NVVファイルとSWFファイルのサポートを停止(音ズレ等のサポートに限界があるため)</li>
+</ul>
+</li>
+<li>
+<p>1.00 (09/07/14)</p>
+<ul>
+<li>一般公開</li>
+<li>使い方解説動画を作成</li>
+<li>音ズレ対策の方法を変更</li>
+</ul>
+</li>
+<li>
+<p>1.00β (09/07/11)</p>
+<ul>
+<li>もろもろのバグ修正</li>
+<li>WAV作成方法を変更</li>
+</ul>
+</li>
+<li>
+<p>1.00α (09/07/10)</p>
+<ul>
+<li>アンインストーラ(レジストリ削除)</li>
+<li>質問スキップ機能実装</li>
+<li>連続エンコード機能実装</li>
+<li>バージョン０系</li>
+</ul>
+</li>
+<li>
+<p>0.30 (09/07/07)</p>
+<ul>
+<li>NVV読み込みのバグを修正</li>
+<li>ソース読み込みの際の色空間の処理の変更</li>
+<li>x264の更新</li>
+<li>x264のオプション変更</li>
+</ul>
+</li>
+<li>
+<p>0.29 (09/07/06)</p>
+<ul>
+<li>質問をもう少しわかりやすくしたり、色々微修正</li>
+<li>NVVとSWFファイルに対応</li>
+</ul>
+</li>
+<li>
+<p>0.28 (09/07/04)</p>
+<ul>
+<li>x264をMixAQ版からOreAQ版に変更</li>
+<li>無音ファイルのエンコのときに、ビットレートを指定しないとエラーになるバグを修正</li>
+</ul>
+</li>
+<li>
+<p>0.27 (09/07/04)</p>
+<ul>
+<li>AVSファイルのエンコードを他から分離(0.23のときからのバグに対処)</li>
+<li>対応音声ファイルの増加(ac3、dts、mp2、mp3、lpcm、w64、bwf、rf64、au、aiff、caf)</li>
+<li>色空間変換の修正</li>
+</ul>
+</li>
+<li>
+<p>0.26 (09/07/03)</p>
+<ul>
+<li>画像ファイルと音声ファイルから動画を作れる機能を実装</li>
+<li>バッチファイルの組み直し</li>
+</ul>
+</li>
+<li>
+<p>0.25 (09/07/02)</p>
+<ul>
+<li>MediaInfo.exeがうまく動かないバグを修正</li>
+<li>インターレース解除機能を実装</li>
+<li>目的解像度を弄れる機能を実装(default_setting.batの修正)</li>
+<li>DirectShowSource.dllの更新</li>
+<li>レジストリファイルを更新</li>
+</ul>
+</li>
+<li>
+<p>0.24 (09/07/01)</p>
+<ul>
+<li>解像度の設定で縦横双方が４の倍数になるように設定</li>
+<li>MediaInfo.exeを更新</li>
+<li>MP4Box.exeを更新</li>
+</ul>
+</li>
+<li>
+<p>0.23 (09/06/29)</p>
+<ul>
+<li>可変フレームレート動画に対応</li>
+<li>上限ビットレートを守らないことがあるので、少し上限を制限</li>
+<li>エンコ中に作成される一時ファイルの数が少なく済むようにスクリプト変更</li>
+</ul>
+</li>
+<li>
+<p>0.22 (09/06/29)</p>
+<ul>
+<li>無圧縮AVIの音声がきちんとエンコードされないバグを修正</li>
+</ul>
+</li>
+<li>
+<p>0.21 (09/06/29)</p>
+<ul>
+<li>AVSファイルに対応</li>
+<li>x264のオプション変更</li>
+</ul>
+</li>
+<li>
+<p>0.20 (09/06/28)</p>
+<ul>
+<li>MPEGなど、様々なフォーマットの動画に対応</li>
+</ul>
+</li>
+<li>
+<p>0.19 (09/06/26)</p>
+<ul>
+<li>音声のデコーダーを変更(一部の動画で音声が読み込めなかった問題への対処)</li>
+</ul>
+</li>
+<li>
+<p>0.18 (09/06/26)</p>
+<ul>
+<li>AVIのエンコのときに音声がエンコードされないバグを再修正</li>
+<li>MP4の容量チェックで、エンコ作業が固まるときがあるバグを修正</li>
+</ul>
+</li>
+<li>
+<p>0.17 (09/06/25)</p>
+<ul>
+<li>レジストリの設定の修正</li>
+<li>AVIのエンコのときに音声がエンコードされないバグを修正(0.14のときからのバグ？)</li>
+<li>high.batとlow.batの整理</li>
+</ul>
+</li>
+<li>
+<p>0.16 (09/06/25)</p>
+<ul>
+<li>2passで映像ビットレートがオーバーしたとき、自動で3passに入るように変更</li>
+<li>x264を更新(r1171)</li>
+<li>DevIL.dllを更新</li>
+</ul>
+</li>
+<li>
+<p>0.15 (09/06/23)</p>
+<ul>
+<li>2passで映像ビットレートが収まらなかったときの挙動を変更(ビットレート調整)</li>
+<li>エンコードの最後にMP4のファイル容量のチェックする機能実装</li>
+</ul>
+</li>
+<li>
+<p>0.14 (09/06/23)</p>
+<ul>
+<li>無音AVIをエンコする際にエラーになるバグを修正(0.12のときからのバグ？)</li>
+</ul>
+</li>
+<li>
+<p>0.13 (09/06/21)</p>
+<ul>
+<li>異常終了したときに残る一時ファイルを削除してからエンコを開始するように変更</li>
+<li>x264のオプション設定にミスがあったので修正(本当に申し訳ありませんでしたorz)</li>
+</ul>
+</li>
+<li>
+<p>0.12 (09/06/21)</p>
+<ul>
+<li>非対応ファイルのときにきちんとバッチが終了するように変更</li>
+<li>音声ビットレート指定の際の挙動を若干修正</li>
+</ul>
+</li>
+<li>
+<p>0.11 (09/06/20)</p>
+<ul>
+<li>無音エンコード実装</li>
+<li>1pass高速化機能実装</li>
+<li>x264のオプション変更</li>
+</ul>
+</li>
+<li>
+<p>0.10 (09/06/20)</p>
+<ul>
+<li>ひとまず作成</li>
+</ul>
+</li>
+</ul></section></article><nav class="blog-post-nav"><ul><li><a rel="prev" href="/お知らせ/サイトリニューアル/"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOSIgY3k9IjkiIHI9IjkiIHRyYW5zZm9ybT0icm90YXRlKC0xODAgOSA5KSIgZmlsbD0iIzU1QUY3QSIvPgo8cGF0aCBkPSJNMTAuNDk3IDQuODU4Nkw3LjQwMTg1IDguMTQyNEM3LjAzNjcgOC41Mjk4IDcuMDM5MDcgOS4xMzUzNSA3LjQwNzI0IDkuNTE5ODhMMTAuNTAwMiAxMi43NTAyIiBzdHJva2U9IiNFN0YyRUMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==" alt="left" class="left"/> PREV</a></li><li></li></ul><p class="post-category"><a href="/">HOME</a><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDcgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjAwNDI4IDExLjUyMjJMNS4zNDg0IDYuOTEzMzZDNS43MTM1NSA2LjUyNTk2IDUuNzExMTcgNS45MjA0IDUuMzQzIDUuNTM1ODhMMSAxIiBzdHJva2U9IiM1ODU4NTgiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=" alt="HOME"/><a href="/?category=エンコード">エンコード</a></p><div class="post-card-container"><a href="/エンコード/つんでれんこ/"><div class="post-footer-card"><div class="post-footer-card__card"><div class="left"><h2 class="title">つんでれんこ</h2><p class="contents">Windows用エンコードバッチツール</p></div><div class="right no-thumbnail theme-color-1"><span>つんでれんこ</span></div></div></div></a></div></nav><section class="comment-area"></section></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/エンコード/つんでれんこ/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-12338a282c3903cf3461.js"],"app":["/app-b89f2deb22d49306b4cf.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-7b247ac3d98c91942f9e.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-a5a2db1d713e6c5f2393.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-05689e02ef5f2541340c.js"],"component---src-templates-blog-post-tsx":["/component---src-templates-blog-post-tsx-34f9a978cdea01a1932c.js"]};/*]]>*/</script><script src="/polyfill-12338a282c3903cf3461.js" nomodule=""></script><script src="/component---src-templates-blog-post-tsx-34f9a978cdea01a1932c.js" async=""></script><script src="/5ab70dd3b6ca162de984cbbccc8160d1acdf6f38-33891d6b4d49eb3fe24f.js" async=""></script><script src="/app-b89f2deb22d49306b4cf.js" async=""></script><script src="/framework-006e99933f63e9d0898a.js" async=""></script><script src="/webpack-runtime-9e7e72121d3e7a44113a.js" async=""></script></body></html>
