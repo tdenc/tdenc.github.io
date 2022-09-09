@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 08 Sep 2022 13:01:49 GMT</lastBuildDate><item><title><![CDATA[投げ銭]]></title><description><![CDATA[これまでの活動とこれからの活動に対して投げ銭をしていただける場合は、以下のリンクからOFUSEを通して応援してくださるとうれしいです。 https://ofuse.me/tdenc…]]></description><link>https://tdenc.com/お知らせ/投げ銭_/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/投げ銭_/</guid><pubDate>Thu, 08 Sep 2022 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;これまでの活動とこれからの活動に対して投げ銭をしていただける場合は、以下のリンクからOFUSEを通して応援してくださるとうれしいです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 09 Sep 2022 02:03:16 GMT</lastBuildDate><item><title><![CDATA[投げ銭]]></title><description><![CDATA[これまでの活動とこれからの活動に対して投げ銭をしていただける場合は、以下のリンクからOFUSEを通して応援してくださるとうれしいです。 https://ofuse.me/tdenc…]]></description><link>https://tdenc.com/お知らせ/投げ銭_/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/投げ銭_/</guid><pubDate>Thu, 08 Sep 2022 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;これまでの活動とこれからの活動に対して投げ銭をしていただける場合は、以下のリンクからOFUSEを通して応援してくださるとうれしいです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://ofuse.me/tdenc&quot;&gt;https://ofuse.me/tdenc&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;レターを送るという発想がとても気に入ったのでこのサービスを利用することにしました。ユーザー登録なしでも送れるそうです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ESO AddOns]]></title><description><![CDATA[Elder Scrolls Onlineのために作ったアドオンのまとめです。忙しくてログインできなくなっちゃって、アドオンも更新してないから一部のはおそらく今は動かない可能性があります。復帰したらまた更新するかもしれないです。 オリジナルアドオン Auto Banish Pets…]]></description><link>https://tdenc.com/ゲーム/eso_addons/</link><guid isPermaLink="false">https://tdenc.com/ゲーム/eso_addons/</guid><pubDate>Wed, 07 Sep 2022 17:10:35 GMT</pubDate><content:encoded>&lt;p&gt;Elder Scrolls Onlineのために作ったアドオンのまとめです。忙しくてログインできなくなっちゃって、アドオンも更新してないから一部のはおそらく今は動かない可能性があります。復帰したらまた更新するかもしれないです。&lt;/p&gt;
 &lt;h1&gt;オリジナルアドオン&lt;/h1&gt;
@@ -22,8 +22,7 @@
 &lt;/ul&gt;
 &lt;h1&gt;ダウンロード&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;GitHubからダウンロードしてください。リンクは&lt;a href=&quot;https://github.com/tdenc/NNC/releases&quot;&gt;[ここ]&lt;/a&gt;。&lt;/p&gt;
+&lt;li&gt;GitHubからダウンロードしてください。リンクは&lt;a href=&quot;https://github.com/tdenc/NNC/releases&quot;&gt;[ここ]&lt;/a&gt;。
 &lt;ol&gt;
 &lt;li&gt;Windowsの人はNNC-windows-**.zip&lt;/li&gt;
 &lt;li&gt;Mac OS Xの人はNNC-macosx.zip&lt;/li&gt;
@@ -53,8 +52,7 @@
 &lt;h1&gt;よくある質問&lt;/h1&gt;
 &lt;h3&gt;どうやっても三ツ星になりません！&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ヒント&lt;/p&gt;
+&lt;li&gt;ヒント
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://tdenc.com/blog/2016/10/22/nico-new-format-3/&quot;&gt;ニコニコ新仕様向けの動画作成方法について&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://qa.nicovideo.jp/faq/show/5685&quot;&gt;ニコニコヘルプ: ニコニコ動画の新投稿仕様について&lt;/a&gt;&lt;/li&gt;
@@ -193,7 +191,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;x264オプションの設定&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;設定ファイル（x264&lt;em&gt;common.bat、high.bat、low.bat、fast&lt;/em&gt;decode.bat）でx264のオプションを設定できます。&lt;/li&gt;
+&lt;li&gt;設定ファイル（x264_common.bat、high.bat、low.bat、fast_decode.bat）でx264のオプションを設定できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Avisynthスクリプトとの連携&lt;/h3&gt;
 &lt;ul&gt;
@@ -217,8 +215,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;動画の解析に失敗する&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;以下のことを確認してみて下さい。&lt;/p&gt;
+&lt;li&gt;以下のことを確認してみて下さい。
 &lt;ol&gt;
 &lt;li&gt;ファイル名やフォルダ名に日本語やスペース(空白)や記号が含まれていないか確認。&lt;/li&gt;
 &lt;li&gt;aviファイルの場合は「WindowsMediaPlayerで」再生できるか確認。&lt;/li&gt;
@@ -228,8 +225,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;エンコードに失敗する&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;以下のことを試してみて下さい。&lt;/p&gt;
+&lt;li&gt;以下のことを試してみて下さい。
 &lt;ol&gt;
 &lt;li&gt;ファイル名やフォルダ名から日本語やスペース(空白)や記号を除く。&lt;/li&gt;
 &lt;li&gt;つんでれんこのフォルダと動画をCドライブ直下に置いてみる。&lt;/li&gt;
@@ -267,8 +263,7 @@
 &lt;/ul&gt;
 &lt;h1&gt;チェンジログ&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;2.99 (22/09/09)（復活版）&lt;/p&gt;
+&lt;li&gt;2.99 (22/09/09)（復活版）
 &lt;ul&gt;
 &lt;li&gt;ツールのアップデート&lt;/li&gt;
 &lt;li&gt;日本語ファイルの処理の改善&lt;/li&gt;
@@ -276,8 +271,7 @@
 &lt;li&gt;Windows11での動作確認&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.98 (18/04/27)（完結版）&lt;/p&gt;
+&lt;li&gt;2.98 (18/04/27)（完結版）
 &lt;ul&gt;
 &lt;li&gt;1080p制限緩和(30分、3GB)に対応&lt;/li&gt;
 &lt;li&gt;neroAACencをダウンロード出来なくなったので、ffmpegに変更&lt;/li&gt;
@@ -287,48 +281,41 @@
 &lt;li&gt;Twitterの時間制限を削除&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.97 (17/07/07)（最最終版）&lt;/p&gt;
+&lt;li&gt;2.97 (17/07/07)（最最終版）
 &lt;ul&gt;
 &lt;li&gt;Twitter投稿用動画のフレームレート変換&lt;/li&gt;
 &lt;li&gt;画像＋音声からの動画作成機能のバグ修正&lt;/li&gt;
 &lt;li&gt;自動リサイズ機能の変更（ニコニコの仕様変更への対応）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.96 (16/12/10)（最終版）&lt;/p&gt;
+&lt;li&gt;2.96 (16/12/10)（最終版）
 &lt;ul&gt;
 &lt;li&gt;一般アカウントへのニコニコ新仕様適用に対応（旧仕様エンコを無効化）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.95 (16/11/10)&lt;/p&gt;
+&lt;li&gt;2.95 (16/11/10)
 &lt;ul&gt;
 &lt;li&gt;30分を超過する動画の自動リサイズの解像度を変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.94 (16/11/09)&lt;/p&gt;
+&lt;li&gt;2.94 (16/11/09)
 &lt;ul&gt;
 &lt;li&gt;一部のサイト向けエンコが動かなくなっていた不具合を修正&lt;/li&gt;
 &lt;li&gt;一時ファイルの作成がごく稀に重複する不具合を修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.93 (16/11/08)&lt;/p&gt;
+&lt;li&gt;2.93 (16/11/08)
 &lt;ul&gt;
 &lt;li&gt;ニコニコ新仕様向けエンコの調整（動画の長さに合わせた解像度とビットレート）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.92 (16/10/27)&lt;/p&gt;
+&lt;li&gt;2.92 (16/10/27)
 &lt;ul&gt;
 &lt;li&gt;全プレアカが新仕様の対象になったので旧仕様プレアカエンコードを無効化&lt;/li&gt;
 &lt;li&gt;ニコニコ新仕様向けエンコのファイルサイズオーバーのチェック機能実装&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.91 (16/10/20)&lt;/p&gt;
+&lt;li&gt;2.91 (16/10/20)
 &lt;ul&gt;
 &lt;li&gt;YouTube以外のサイトではステレオ以上の音声をエンコードできないように変更&lt;/li&gt;
 &lt;li&gt;Twitterに対応&lt;/li&gt;
@@ -336,84 +323,72 @@
 &lt;li&gt;細かいバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.90 (16/10/15)&lt;/p&gt;
+&lt;li&gt;2.90 (16/10/15)
 &lt;ul&gt;
 &lt;li&gt;ツールの自動ダウンロードが失敗する問題に対処&lt;/li&gt;
 &lt;li&gt;MUXエンコモードでニコニコ新仕様向けのエンコができない問題に対処&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.89 (16/10/14)&lt;/p&gt;
+&lt;li&gt;2.89 (16/10/14)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;ニコニコ新仕様向けのエンコでサンプリングレートを選択できるように変更&lt;/li&gt;
 &lt;li&gt;（質問レベルを多めにしたときのみ選択可能）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.88 (16/09/18)&lt;/p&gt;
+&lt;li&gt;2.88 (16/09/18)
 &lt;ul&gt;
 &lt;li&gt;再生確認をFlash PlayerからHTML5に変更&lt;/li&gt;
 &lt;li&gt;（user_setting.batを弄ることでFlash Playerに戻すことも可能）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.87 (16/09/06)&lt;/p&gt;
+&lt;li&gt;2.87 (16/09/06)
 &lt;ul&gt;
 &lt;li&gt;ニコニコ新仕様のビットレート処理の調整&lt;/li&gt;
 &lt;li&gt;ニコニコ新仕様向けのリサイズ処理の変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.86 (16/09/05)&lt;/p&gt;
+&lt;li&gt;2.86 (16/09/05)
 &lt;ul&gt;
 &lt;li&gt;一部の動画形式においてデコードの処理を変更&lt;/li&gt;
 &lt;li&gt;YouTube/ニコニコ新仕様用のプリセットを更新&lt;/li&gt;
 &lt;li&gt;ニコニコ新仕様で低ビットレートの問題への暫定的な対処&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.85 (16/08/30)&lt;/p&gt;
+&lt;li&gt;2.85 (16/08/30)
 &lt;ul&gt;
 &lt;li&gt;一部の音声形式で音声エンコードがおかしくなる問題に対処（依存ツール絡み）&lt;/li&gt;
 &lt;li&gt;その他細かい調整&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.84 (16/08/29)&lt;/p&gt;
+&lt;li&gt;2.84 (16/08/29)
 &lt;ul&gt;
 &lt;li&gt;32bitOSで使用した時のインストーラのバグ修正&lt;/li&gt;
 &lt;li&gt;DirectShowSourceの更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.83 (16/08/28)&lt;/p&gt;
+&lt;li&gt;2.83 (16/08/28)
 &lt;ul&gt;
 &lt;li&gt;Avisynth2.6.0への更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.82 (16/08/28)&lt;/p&gt;
+&lt;li&gt;2.82 (16/08/28)
 &lt;ul&gt;
 &lt;li&gt;2.81の更新に伴うデコード処理のバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.81 (16/08/28)&lt;/p&gt;
+&lt;li&gt;2.81 (16/08/28)
 &lt;ul&gt;
 &lt;li&gt;FFmpegSourceの更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.80 (16/08/25)&lt;/p&gt;
+&lt;li&gt;2.80 (16/08/25)
 &lt;ul&gt;
 &lt;li&gt;ビットレートが一定値を下回るとニコニコ新基準では低画質になる問題に対処&lt;/li&gt;
 &lt;li&gt;※ 詳しくは &lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot;&gt;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&lt;/a&gt; を参照してください&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.79 (16/08/22)&lt;/p&gt;
+&lt;li&gt;2.79 (16/08/22)
 &lt;ul&gt;
 &lt;li&gt;8月18日から一部のユーザーに適用されている新基準に暫定的に対応&lt;/li&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
@@ -421,24 +396,21 @@
 &lt;li&gt;デノイズ機能を追加&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.78 (16/05/22)&lt;/p&gt;
+&lt;li&gt;2.78 (16/05/22)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;自動更新機能の更新&lt;/li&gt;
 &lt;li&gt;ユーザーによるメッセージ変更が増えてきたので仕様を少し変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.77 (13/11/04)&lt;/p&gt;
+&lt;li&gt;2.77 (13/11/04)
 &lt;ul&gt;
 &lt;li&gt;x264の更新（取得先変更）&lt;/li&gt;
 &lt;li&gt;YouTubeのパートナーシップ制廃止による用語の変更&lt;/li&gt;
 &lt;li&gt;その他細かい微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.76 (12/10/28)&lt;/p&gt;
+&lt;li&gt;2.76 (12/10/28)
 &lt;ul&gt;
 &lt;li&gt;一部の動画がエンコードできない問題に対処（Intel IYUVとか）&lt;/li&gt;
 &lt;li&gt;サンプルレートの処理を修正・改善&lt;/li&gt;
@@ -446,15 +418,13 @@
 &lt;li&gt;その他細かい微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.75 (12/10/27)&lt;/p&gt;
+&lt;li&gt;2.75 (12/10/27)
 &lt;ul&gt;
 &lt;li&gt;一部の解像度の動画がエンコードできない問題に対処&lt;/li&gt;
 &lt;li&gt;プリセット質問の誤植を修正（エンコードには影響なし）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.74 (12/10/25)&lt;/p&gt;
+&lt;li&gt;2.74 (12/10/25)
 &lt;ul&gt;
 &lt;li&gt;一部の色空間の動画がエンコードできない問題に対処&lt;/li&gt;
 &lt;li&gt;ニコニコ用プリセットでのCRFの値を調整（ファイルサイズ抑制のため）&lt;/li&gt;
@@ -463,15 +433,13 @@
 &lt;li&gt;品質基準エンコ質問の表示で抜けていた部分を追加&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.73 (12/10/24)&lt;/p&gt;
+&lt;li&gt;2.73 (12/10/24)
 &lt;ul&gt;
 &lt;li&gt;一部の解像度・色空間の動画で映像が崩れる問題に対処&lt;/li&gt;
 &lt;li&gt;質問の表示を一部改善（音声ビットレートの質問時など）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.72 (12/10/23)&lt;/p&gt;
+&lt;li&gt;2.72 (12/10/23)
 &lt;ul&gt;
 &lt;li&gt;ニコニコ動画(Qwatch) の仕様変更に対応(プリセットver20)&lt;/li&gt;
 &lt;li&gt;自動リサイズのデフォルト解像度を変更（Qwatchの大画面に対応）&lt;/li&gt;
@@ -510,8 +478,7 @@
 &lt;li&gt;コード整理（エラー判定の強化、冗長なコードの整理）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.71 (12/05/01)&lt;/p&gt;
+&lt;li&gt;2.71 (12/05/01)
 &lt;ul&gt;
 &lt;li&gt;ニコニコ動画(Zero)の仕様変更に対応(プリセットver19)&lt;/li&gt;
 &lt;li&gt;リサイズのデフォルト解像度を変更&lt;/li&gt;
@@ -523,8 +490,7 @@
 &lt;li&gt;YouTubeプリセット時に容量チェックをスキップ&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.70 (12/04/15)&lt;/p&gt;
+&lt;li&gt;2.70 (12/04/15)
 &lt;ul&gt;
 &lt;li&gt;メッセージの微修正&lt;/li&gt;
 &lt;li&gt;変数の整理&lt;/li&gt;
@@ -536,14 +502,12 @@
 &lt;li&gt;typo修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.69 (12/04/13)&lt;/p&gt;
+&lt;li&gt;2.69 (12/04/13)
 &lt;ul&gt;
 &lt;li&gt;user_setting.batの処理を改善&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.68 (12/04/12)&lt;/p&gt;
+&lt;li&gt;2.68 (12/04/12)
 &lt;ul&gt;
 &lt;li&gt;YouTubeに対応（プリセットy）&lt;/li&gt;
 &lt;li&gt;プリセットのバージョンを18に更新&lt;/li&gt;
@@ -568,27 +532,23 @@
 &lt;li&gt;そのほか微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.67 (12/02/09)&lt;/p&gt;
+&lt;li&gt;2.67 (12/02/09)
 &lt;ul&gt;
 &lt;li&gt;エコノミーモード回避関係の修正漏れ&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.66 (12/02/08)&lt;/p&gt;
+&lt;li&gt;2.66 (12/02/08)
 &lt;ul&gt;
 &lt;li&gt;user_setting.batに関する処理の改善&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.65 (12/02/08)&lt;/p&gt;
+&lt;li&gt;2.65 (12/02/08)
 &lt;ul&gt;
 &lt;li&gt;エコノミーモード回避の上限変更に対応（2/8の仕様変更）&lt;/li&gt;
 &lt;li&gt;連番AVIの連結の判定の改善（大文字拡張子対応）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.64 (12/01/31)&lt;/p&gt;
+&lt;li&gt;2.64 (12/01/31)
 &lt;ul&gt;
 &lt;li&gt;MediaInfoのアップデート&lt;/li&gt;
 &lt;li&gt;ffmsのアップデート&lt;/li&gt;
@@ -596,28 +556,24 @@
 &lt;li&gt;再生時間の小数問題の追加修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.63 (12/01/30)&lt;/p&gt;
+&lt;li&gt;2.63 (12/01/30)
 &lt;ul&gt;
 &lt;li&gt;一部の動画のキャッシュ処理を廃止（事前処理の速度改善）&lt;/li&gt;
 &lt;li&gt;一部の動画で3pass判定時に落ちる問題に対処（再生時間の小数問題）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.62 (12/01/24)&lt;/p&gt;
+&lt;li&gt;2.62 (12/01/24)
 &lt;ul&gt;
 &lt;li&gt;日時フォーマットに起因する問題に対処&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.61 (12/01/22)&lt;/p&gt;
+&lt;li&gt;2.61 (12/01/22)
 &lt;ul&gt;
 &lt;li&gt;一部の動画でリサイズが有効にならない問題に対処&lt;/li&gt;
 &lt;li&gt;一部の動画の再生チェックで動画の端が切れないよう、プレイヤーサイズを固定&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.60 (12/01/20)&lt;/p&gt;
+&lt;li&gt;2.60 (12/01/20)
 &lt;ul&gt;
 &lt;li&gt;インストーラの改善&lt;/li&gt;
 &lt;li&gt;x264の更新（バグフィクス）&lt;/li&gt;
@@ -625,14 +581,12 @@
 &lt;li&gt;再生チェックプレイヤーのリサイズの設定の修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.59 (12/01/18)&lt;/p&gt;
+&lt;li&gt;2.59 (12/01/18)
 &lt;ul&gt;
 &lt;li&gt;プリセットa（自動設定モード）実装&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.58 (12/01/18)&lt;/p&gt;
+&lt;li&gt;2.58 (12/01/18)
 &lt;ul&gt;
 &lt;li&gt;x264の更新（高速化）&lt;/li&gt;
 &lt;li&gt;再生チェックのプレイヤーサイズを改善&lt;/li&gt;
@@ -642,30 +596,26 @@
 &lt;li&gt;ツールインストール時の一時ファイルをきちんと削除するように改善&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.57 (12/01/14)&lt;/p&gt;
+&lt;li&gt;2.57 (12/01/14)
 &lt;ul&gt;
 &lt;li&gt;多重起動（エンコ中に別の動画をさらにエンコ）に対応&lt;/li&gt;
 &lt;li&gt;再生チェックのプレイヤーサイズをニコニコ動画プレイヤーに近くした&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.56 (12/01/11)&lt;/p&gt;
+&lt;li&gt;2.56 (12/01/11)
 &lt;ul&gt;
 &lt;li&gt;x264の更新（バグフィクス、高速化、オプション変更）&lt;/li&gt;
 &lt;li&gt;上記変更に伴いオプションを少し調整（user_setting.batには影響なし）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.55 (12/01/01)&lt;/p&gt;
+&lt;li&gt;2.55 (12/01/01)
 &lt;ul&gt;
 &lt;li&gt;curlのオプションの改善&lt;/li&gt;
 &lt;li&gt;ツールの更新時にx264だけは必ず毎回更新するように変更&lt;/li&gt;
 &lt;li&gt;x264のバージョンチェックを分離（今後はx264のみの更新ができるように）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.54 (11/12/24)&lt;/p&gt;
+&lt;li&gt;2.54 (11/12/24)
 &lt;ul&gt;
 &lt;li&gt;自動アップデートのバグ修正&lt;/li&gt;
 &lt;li&gt;ビットレート指定時の処理の改善&lt;/li&gt;
@@ -674,43 +624,37 @@
 &lt;li&gt;(今後はdefault_setting.batではなくこっちをいじってください)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.53 (11/12/11)&lt;/p&gt;
+&lt;li&gt;2.53 (11/12/11)
 &lt;ul&gt;
 &lt;li&gt;自動アップデート機能を実装&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.52 (11/10/29)&lt;/p&gt;
+&lt;li&gt;2.52 (11/10/29)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;一部の動画で音声エンコが失敗する問題に対処(リサンプリング処理)&lt;/li&gt;
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.51 (11/09/11)&lt;/p&gt;
+&lt;li&gt;2.51 (11/09/11)
 &lt;ul&gt;
 &lt;li&gt;デコーダとしてqt(QuickTime)を選択可能に&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.50 (11/09/11)&lt;/p&gt;
+&lt;li&gt;2.50 (11/09/11)
 &lt;ul&gt;
 &lt;li&gt;qtaacencの更新&lt;/li&gt;
 &lt;li&gt;FFMpegSourceのフォルダ構造の変更に対応&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.49 (11/09/10)&lt;/p&gt;
+&lt;li&gt;2.49 (11/09/10)
 &lt;ul&gt;
 &lt;li&gt;x264の更新(主に高速化)&lt;/li&gt;
 &lt;li&gt;FFMpegSourceの更新&lt;/li&gt;
 &lt;li&gt;一部の動画で映像エンコができない問題に(さらに)対処&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.48 (11/08/01)&lt;/p&gt;
+&lt;li&gt;2.48 (11/08/01)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;FFMpegSourceの更新&lt;/li&gt;
@@ -719,8 +663,7 @@
 &lt;li&gt;一部の動画で映像エンコができない問題に対処&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.47 (11/07/28)&lt;/p&gt;
+&lt;li&gt;2.47 (11/07/28)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;プリセットxの更新&lt;/li&gt;
@@ -730,22 +673,19 @@
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.46 (11/07/20)&lt;/p&gt;
+&lt;li&gt;2.46 (11/07/20)
 &lt;ul&gt;
 &lt;li&gt;プロセス表示の改善&lt;/li&gt;
 &lt;li&gt;一部動画の連続エンコ時に音声エンコで止まるバグを修正&lt;/li&gt;
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.45 (11/07/18)&lt;/p&gt;
+&lt;li&gt;2.45 (11/07/18)
 &lt;ul&gt;
 &lt;li&gt;プリセット表示のバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.44 (11/07/18)&lt;/p&gt;
+&lt;li&gt;2.44 (11/07/18)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;画像+wavの時に必要に応じて自動クロップ&lt;/li&gt;
@@ -753,16 +693,14 @@
 &lt;li&gt;プロセス表示の仕様変更（新規ウィンドウを開かなくした）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.43 (11/07/17)&lt;/p&gt;
+&lt;li&gt;2.43 (11/07/17)
 &lt;ul&gt;
 &lt;li&gt;自動クロップのバグを修正&lt;/li&gt;
 &lt;li&gt;プリセットsを追加（mp4+wavの時に選択可、歌ってみたカテ向け）&lt;/li&gt;
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.42 (11/07/01)&lt;/p&gt;
+&lt;li&gt;2.42 (11/07/01)
 &lt;ul&gt;
 &lt;li&gt;プリセットxの更新(互換性の問題に対処)&lt;/li&gt;
 &lt;li&gt;動画の音声出力ツールをwaviからavs2pipeに変更&lt;/li&gt;
@@ -772,8 +710,7 @@
 &lt;li&gt;その他細かい修正・変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.41 (11/06/22)&lt;/p&gt;
+&lt;li&gt;2.41 (11/06/22)
 &lt;ul&gt;
 &lt;li&gt;x264.exeのURL変更に対応&lt;/li&gt;
 &lt;li&gt;x264の更新（速度・画質改善）&lt;/li&gt;
@@ -786,8 +723,7 @@
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.40 (10/05/13)&lt;/p&gt;
+&lt;li&gt;2.40 (10/05/13)
 &lt;ul&gt;
 &lt;li&gt;FFMpegSourceのバージョンを2.00b10に戻す&lt;/li&gt;
 &lt;li&gt;一部の処理で、プロセスが進行していることを表示&lt;/li&gt;
@@ -795,8 +731,7 @@
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.39 (10/05/06)&lt;/p&gt;
+&lt;li&gt;2.39 (10/05/06)
 &lt;ul&gt;
 &lt;li&gt;x264更新&lt;/li&gt;
 &lt;li&gt;MediaInfo更新&lt;/li&gt;
@@ -805,8 +740,7 @@
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.38 (10/04/30)&lt;/p&gt;
+&lt;li&gt;2.38 (10/04/30)
 &lt;ul&gt;
 &lt;li&gt;x264更新&lt;/li&gt;
 &lt;li&gt;VFRの動画に対応（今までは適当に誤魔化していました（笑&lt;/li&gt;
@@ -814,8 +748,7 @@
 &lt;li&gt;その他細かい修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.37 (10/04/29)&lt;/p&gt;
+&lt;li&gt;2.37 (10/04/29)
 &lt;ul&gt;
 &lt;li&gt;x264更新&lt;/li&gt;
 &lt;li&gt;台詞を差し替え可能に&lt;/li&gt;
@@ -823,15 +756,13 @@
 &lt;li&gt;一部動画の音声デコードを変更（FFMpegSourceのバグ修正版正式リリース待ち）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.36 (10/04/15)&lt;/p&gt;
+&lt;li&gt;2.36 (10/04/15)
 &lt;ul&gt;
 &lt;li&gt;プリセット更新（バージョン11、不具合解消、プリセットx追加）&lt;/li&gt;
 &lt;li&gt;MediaInfoの更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.35 (10/04/12)&lt;/p&gt;
+&lt;li&gt;2.35 (10/04/12)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;プリセット更新（バージョン10、バランスと速度重視を若干高速化）&lt;/li&gt;
@@ -840,8 +771,7 @@
 &lt;li&gt;起動時の挙動を若干変更（tool_url.bat関係）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.34 (10/03/28)&lt;/p&gt;
+&lt;li&gt;2.34 (10/03/28)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;プリセット更新（バージョン９）&lt;/li&gt;
@@ -853,8 +783,7 @@
 &lt;li&gt;colormatrix関係の処理を追加&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.33 (10/03/20)&lt;/p&gt;
+&lt;li&gt;2.33 (10/03/20)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;x264のオプションを更新&lt;/li&gt;
@@ -875,8 +804,7 @@
 &lt;li&gt;コードをかなり整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.32 (10/02/12)&lt;/p&gt;
+&lt;li&gt;2.32 (10/02/12)
 &lt;ul&gt;
 &lt;li&gt;強制3パスエンコードのバグ修正&lt;/li&gt;
 &lt;li&gt;連続エンコードモードのバグ修正&lt;/li&gt;
@@ -890,22 +818,19 @@
 &lt;li&gt;その他細かいバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.31 (10/02/07)&lt;/p&gt;
+&lt;li&gt;2.31 (10/02/07)
 &lt;ul&gt;
 &lt;li&gt;音声エンコでqtaacencを選択可能に（QuickTime7.6.5以降必須、default_setting.batを編集して使用）&lt;/li&gt;
 &lt;li&gt;その他もろもろの微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.30 (10/02/06)&lt;/p&gt;
+&lt;li&gt;2.30 (10/02/06)
 &lt;ul&gt;
 &lt;li&gt;もろもろバグフィクス&lt;/li&gt;
 &lt;li&gt;x264.nlのサーバダウンに対応&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.29 (10/02/06)&lt;/p&gt;
+&lt;li&gt;2.29 (10/02/06)
 &lt;ul&gt;
 &lt;li&gt;プリセットを更新（バージョン6に移行）&lt;/li&gt;
 &lt;li&gt;プリセットをダウンロードして上書きする形式から、選択する形式に変更&lt;/li&gt;
@@ -929,8 +854,7 @@
 &lt;li&gt;コードの重複などを大幅に整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.28 (09/12/19)&lt;/p&gt;
+&lt;li&gt;2.28 (09/12/19)
 &lt;ul&gt;
 &lt;li&gt;AVIとWAVのMUXができないバグを修正&lt;/li&gt;
 &lt;li&gt;一般アカ用のエコ回避モードのバグを修正&lt;/li&gt;
@@ -939,8 +863,7 @@
 &lt;li&gt;その他テキストの微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.27 (09/12/07)&lt;/p&gt;
+&lt;li&gt;2.27 (09/12/07)
 &lt;ul&gt;
 &lt;li&gt;プリセットバージョンチェック機能の修正&lt;/li&gt;
 &lt;li&gt;AVIのデコードに失敗した時ループになるバグ修正&lt;/li&gt;
@@ -948,8 +871,7 @@
 &lt;li&gt;その他テキストの微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.26 (09/12/06)&lt;/p&gt;
+&lt;li&gt;2.26 (09/12/06)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;x264のバージョンチェック機能の修正&lt;/li&gt;
@@ -958,8 +880,7 @@
 &lt;li&gt;WMVやMP4でのデコード処理を強化&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.25 (09/12/05)&lt;/p&gt;
+&lt;li&gt;2.25 (09/12/05)
 &lt;ul&gt;
 &lt;li&gt;MUXモード（音声差し替え）のバグ修正&lt;/li&gt;
 &lt;li&gt;連続エンコモードで3パス判定がうまく行かないバグを修正&lt;/li&gt;
@@ -968,15 +889,13 @@
 &lt;li&gt;ツールのチェックのときにx264のエラーが表示されていた問題を解決&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.24 (09/12/02)&lt;/p&gt;
+&lt;li&gt;2.24 (09/12/02)
 &lt;ul&gt;
 &lt;li&gt;x264のバージョンチェックを分離(x264のみの更新機能実装)&lt;/li&gt;
 &lt;li&gt;AVSファイルの処理方法の修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.23 (09/12/01)&lt;/p&gt;
+&lt;li&gt;2.23 (09/12/01)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;x264のバージョンチェックを若干修正&lt;/li&gt;
@@ -985,16 +904,14 @@
 &lt;li&gt;weightpのサポートを一時的に停止(FlashPlayer10.1対応待ち)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.22 (09/11/28)&lt;/p&gt;
+&lt;li&gt;2.22 (09/11/28)
 &lt;ul&gt;
 &lt;li&gt;x264の更新&lt;/li&gt;
 &lt;li&gt;一般アカ用のエンコでx264の設定が読めないくなるバグの修正(2.20のバグ)&lt;/li&gt;
 &lt;li&gt;ツールダウンロード時に最新のURLを反映しなくなっていたので修正(大した影響はない)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.21 (09/11/27)&lt;/p&gt;
+&lt;li&gt;2.21 (09/11/27)
 &lt;ul&gt;
 &lt;li&gt;AVIの音声が正常にエンコードされない問題に対処(2.20のバグ)&lt;/li&gt;
 &lt;li&gt;更新チェック時に特定バージョンをスキップできる機能を実装&lt;/li&gt;
@@ -1002,8 +919,7 @@
 &lt;li&gt;誤植修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.20 (09/11/26)&lt;/p&gt;
+&lt;li&gt;2.20 (09/11/26)
 &lt;ul&gt;
 &lt;li&gt;x264.exeの更新&lt;/li&gt;
 &lt;li&gt;MediaInfo.exeの更新&lt;/li&gt;
@@ -1016,8 +932,7 @@
 &lt;li&gt;他に細かなバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.19 (09/10/29)&lt;/p&gt;
+&lt;li&gt;2.19 (09/10/29)
 &lt;ul&gt;
 &lt;li&gt;ニコニコ動画(9)に対応(プレアカのときはビットレート上限を決める質問を表示)&lt;/li&gt;
 &lt;li&gt;一部動画の音声デコードをFFAudioSourceに変更&lt;/li&gt;
@@ -1027,8 +942,7 @@
 &lt;li&gt;エコ回避以外のときは低再生負荷エンコードをするか質問&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.18 (09/10/24)&lt;/p&gt;
+&lt;li&gt;2.18 (09/10/24)
 &lt;ul&gt;
 &lt;li&gt;エンコード後に一時ファイルが正常に削除されないバグを修正&lt;/li&gt;
 &lt;li&gt;FFMpegSourceを使用する際の挙動を変更(インデックス作成のスキップ)&lt;/li&gt;
@@ -1036,8 +950,7 @@
 &lt;li&gt;64bitOSでavisynth.dllファイルの検索がうまく機能しない問題を修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.17 (09/10/22)&lt;/p&gt;
+&lt;li&gt;2.17 (09/10/22)
 &lt;ul&gt;
 &lt;li&gt;x264.exeの更新&lt;/li&gt;
 &lt;li&gt;上記の更新によりb-pyramidのサポートを一時的に停止(次回プリセット更新まで)&lt;/li&gt;
@@ -1050,8 +963,7 @@
 &lt;li&gt;コードの整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.16 (09/10/18)&lt;/p&gt;
+&lt;li&gt;2.16 (09/10/18)
 &lt;ul&gt;
 &lt;li&gt;一部動画で音声がエンコードされないバグを修正(FFMpegSourceの仕様変更)&lt;/li&gt;
 &lt;li&gt;プリセット更新(画質超重視のパスの設定ミス修正)&lt;/li&gt;
@@ -1063,16 +975,14 @@
 &lt;li&gt;映像エンコードが失敗したときにも音声エンコードに進んでしまうバグの修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.15 (09/10/17)&lt;/p&gt;
+&lt;li&gt;2.15 (09/10/17)
 &lt;ul&gt;
 &lt;li&gt;容量の大きいWMV、MP4等でインデックスが作成されないバグを修正&lt;/li&gt;
 &lt;li&gt;FFMpegSourceでのインデックス作成をffmsindex.exeに変更(インストーラも更新)&lt;/li&gt;
 &lt;li&gt;バッチやテキストなどの整理(typoなど)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.14 (09/10/17)&lt;/p&gt;
+&lt;li&gt;2.14 (09/10/17)
 &lt;ul&gt;
 &lt;li&gt;SourceForgeサーバを変更&lt;/li&gt;
 &lt;li&gt;x264.exeファイルのチェックの簡略化&lt;/li&gt;
@@ -1099,8 +1009,7 @@
 &lt;li&gt;インターレース処理の修正(MBAFF)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.13 (09/09/26)&lt;/p&gt;
+&lt;li&gt;2.13 (09/09/26)
 &lt;ul&gt;
 &lt;li&gt;SourceForgeサーバ移転に対応&lt;/li&gt;
 &lt;li&gt;MediaInfo.exeとyadif.dllを更新&lt;/li&gt;
@@ -1117,16 +1026,14 @@
 &lt;li&gt;バッチ整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.12 (09/08/19)&lt;/p&gt;
+&lt;li&gt;2.12 (09/08/19)
 &lt;ul&gt;
 &lt;li&gt;SourceForgeサーバ移転に対応&lt;/li&gt;
 &lt;li&gt;MediaInfo.exeとyadif.dllとx264.exeを更新&lt;/li&gt;
 &lt;li&gt;音ズレに関して若干の微調整&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.11 (09/08/13)&lt;/p&gt;
+&lt;li&gt;2.11 (09/08/13)
 &lt;ul&gt;
 &lt;li&gt;FFMpegSourceの鯖が不安定なときは別鯖(GoogleCode)から落とすようにダウンロードスクリプトを変更&lt;/li&gt;
 &lt;li&gt;起動時にネットに繋がってない場合は自動更新チェックをオフにするように警告するよう仕様変更&lt;/li&gt;
@@ -1134,8 +1041,7 @@
 &lt;li&gt;連続エンコードの際にバージョンチェック・エンコードが正常に行われないバグを修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.10 (09/08/12)&lt;/p&gt;
+&lt;li&gt;2.10 (09/08/12)
 &lt;ul&gt;
 &lt;li&gt;FFMpegSourceのリンク切れを解消(バージョンアップ)&lt;/li&gt;
 &lt;li&gt;配布形式を変更(本体とプリセットを別に配布)&lt;/li&gt;
@@ -1143,8 +1049,7 @@
 &lt;li&gt;バッチスクリプトの微修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.09 (09/08/11)&lt;/p&gt;
+&lt;li&gt;2.09 (09/08/11)
 &lt;ul&gt;
 &lt;li&gt;強制3passモードのバグ修正&lt;/li&gt;
 &lt;li&gt;ダウンロードスクリプトのバグ修正&lt;/li&gt;
@@ -1152,30 +1057,26 @@
 &lt;li&gt;バッチスクリプトの整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.08 (09/08/10)&lt;/p&gt;
+&lt;li&gt;2.08 (09/08/10)
 &lt;ul&gt;
 &lt;li&gt;強制3passモードのバグ修正&lt;/li&gt;
 &lt;li&gt;自動更新チェック機能の挙動を変更&lt;/li&gt;
 &lt;li&gt;MP4のサイズ指定で大きい数値を割り当てると起きるバグを修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.07 (09/08/10)&lt;/p&gt;
+&lt;li&gt;2.07 (09/08/10)
 &lt;ul&gt;
 &lt;li&gt;自動更新チェックのバグ修正&lt;/li&gt;
 &lt;li&gt;バッチの修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.06 (09/08/10)&lt;/p&gt;
+&lt;li&gt;2.06 (09/08/10)
 &lt;ul&gt;
 &lt;li&gt;強制1pass2passモードのバグ修正&lt;/li&gt;
 &lt;li&gt;映像と音声のMUX機能のバグ修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.05 (09/08/10)&lt;/p&gt;
+&lt;li&gt;2.05 (09/08/10)
 &lt;ul&gt;
 &lt;li&gt;配布場所を変更(ホームページ開設)&lt;/li&gt;
 &lt;li&gt;自動更新チェック機能実装&lt;/li&gt;
@@ -1185,8 +1086,7 @@
 &lt;li&gt;x264のオプションを更新(1passのオプションをx264のデフォルトに設定、–no-mbtree追加、など)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.04 (09/07/28)&lt;/p&gt;
+&lt;li&gt;2.04 (09/07/28)
 &lt;ul&gt;
 &lt;li&gt;ダウンロードスクリプトの挙動を若干変更&lt;/li&gt;
 &lt;li&gt;x264を更新&lt;/li&gt;
@@ -1194,8 +1094,7 @@
 &lt;li&gt;テキスト等の誤植を修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.03 (09/07/27)&lt;/p&gt;
+&lt;li&gt;2.03 (09/07/27)
 &lt;ul&gt;
 &lt;li&gt;x264のバイナリをx264.nlから取得するように変更&lt;/li&gt;
 &lt;li&gt;x264を更新&lt;/li&gt;
@@ -1203,8 +1102,7 @@
 &lt;li&gt;細かいバグフィクス&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.02 (09/07/27)&lt;/p&gt;
+&lt;li&gt;2.02 (09/07/27)
 &lt;ul&gt;
 &lt;li&gt;上限ビットレートを変更(プレアカ1000kbps、一般アカ600kbps、エコ回避230kbps)&lt;/li&gt;
 &lt;li&gt;上限ファイル容量を変更できるように仕様変更(ファイル容量オーバー対策)&lt;/li&gt;
@@ -1217,16 +1115,14 @@
 &lt;li&gt;音声ファイルのデコーダを一部変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.01 (09/07/22)&lt;/p&gt;
+&lt;li&gt;2.01 (09/07/22)
 &lt;ul&gt;
 &lt;li&gt;ffmpegsourceの配布場所変更に対応&lt;/li&gt;
 &lt;li&gt;連続エンコードモードのバグ修正&lt;/li&gt;
 &lt;li&gt;書類関係の不備修正(ダウンロード場所等)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2.00 (09/07/21)&lt;/p&gt;
+&lt;li&gt;2.00 (09/07/21)
 &lt;ul&gt;
 &lt;li&gt;初回起動時にインストーラを起動するように仕様変更&lt;/li&gt;
 &lt;li&gt;一部の環境でx264が異常終了する問題に対処&lt;/li&gt;
@@ -1237,45 +1133,39 @@
 &lt;li&gt;ライセンス明記&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.03 (09/07/19)&lt;/p&gt;
+&lt;li&gt;1.03 (09/07/19)
 &lt;ul&gt;
 &lt;li&gt;緊急バグフィクス(BGM作成モードのバグ)&lt;/li&gt;
 &lt;li&gt;音声のデコード方式を変更&lt;/li&gt;
 &lt;li&gt;依存関係がなくなったツール類の削除＆スクリプト整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.02 (09/07/18)&lt;/p&gt;
+&lt;li&gt;1.02 (09/07/18)
 &lt;ul&gt;
 &lt;li&gt;緊急バグフィクス(silence.exeのバグ)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.01 (09/07/18)&lt;/p&gt;
+&lt;li&gt;1.01 (09/07/18)
 &lt;ul&gt;
 &lt;li&gt;FPS変換機能追加&lt;/li&gt;
 &lt;li&gt;エンコ後の動画の容量上限を100MBと40MBから99.4MBと39.7MBに変更&lt;/li&gt;
 &lt;li&gt;NVVファイルとSWFファイルのサポートを停止(音ズレ等のサポートに限界があるため)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.00 (09/07/14)&lt;/p&gt;
+&lt;li&gt;1.00 (09/07/14)
 &lt;ul&gt;
 &lt;li&gt;一般公開&lt;/li&gt;
 &lt;li&gt;使い方解説動画を作成&lt;/li&gt;
 &lt;li&gt;音ズレ対策の方法を変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.00β (09/07/11)&lt;/p&gt;
+&lt;li&gt;1.00β (09/07/11)
 &lt;ul&gt;
 &lt;li&gt;もろもろのバグ修正&lt;/li&gt;
 &lt;li&gt;WAV作成方法を変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.00α (09/07/10)&lt;/p&gt;
+&lt;li&gt;1.00α (09/07/10)
 &lt;ul&gt;
 &lt;li&gt;アンインストーラ(レジストリ削除)&lt;/li&gt;
 &lt;li&gt;質問スキップ機能実装&lt;/li&gt;
@@ -1283,8 +1173,7 @@
 &lt;li&gt;バージョン０系&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.30 (09/07/07)&lt;/p&gt;
+&lt;li&gt;0.30 (09/07/07)
 &lt;ul&gt;
 &lt;li&gt;NVV読み込みのバグを修正&lt;/li&gt;
 &lt;li&gt;ソース読み込みの際の色空間の処理の変更&lt;/li&gt;
@@ -1292,37 +1181,32 @@
 &lt;li&gt;x264のオプション変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.29 (09/07/06)&lt;/p&gt;
+&lt;li&gt;0.29 (09/07/06)
 &lt;ul&gt;
 &lt;li&gt;質問をもう少しわかりやすくしたり、色々微修正&lt;/li&gt;
 &lt;li&gt;NVVとSWFファイルに対応&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.28 (09/07/04)&lt;/p&gt;
+&lt;li&gt;0.28 (09/07/04)
 &lt;ul&gt;
 &lt;li&gt;x264をMixAQ版からOreAQ版に変更&lt;/li&gt;
 &lt;li&gt;無音ファイルのエンコのときに、ビットレートを指定しないとエラーになるバグを修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.27 (09/07/04)&lt;/p&gt;
+&lt;li&gt;0.27 (09/07/04)
 &lt;ul&gt;
 &lt;li&gt;AVSファイルのエンコードを他から分離(0.23のときからのバグに対処)&lt;/li&gt;
 &lt;li&gt;対応音声ファイルの増加(ac3、dts、mp2、mp3、lpcm、w64、bwf、rf64、au、aiff、caf)&lt;/li&gt;
 &lt;li&gt;色空間変換の修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.26 (09/07/03)&lt;/p&gt;
+&lt;li&gt;0.26 (09/07/03)
 &lt;ul&gt;
 &lt;li&gt;画像ファイルと音声ファイルから動画を作れる機能を実装&lt;/li&gt;
 &lt;li&gt;バッチファイルの組み直し&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.25 (09/07/02)&lt;/p&gt;
+&lt;li&gt;0.25 (09/07/02)
 &lt;ul&gt;
 &lt;li&gt;MediaInfo.exeがうまく動かないバグを修正&lt;/li&gt;
 &lt;li&gt;インターレース解除機能を実装&lt;/li&gt;
@@ -1331,107 +1215,92 @@
 &lt;li&gt;レジストリファイルを更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.24 (09/07/01)&lt;/p&gt;
+&lt;li&gt;0.24 (09/07/01)
 &lt;ul&gt;
 &lt;li&gt;解像度の設定で縦横双方が４の倍数になるように設定&lt;/li&gt;
 &lt;li&gt;MediaInfo.exeを更新&lt;/li&gt;
 &lt;li&gt;MP4Box.exeを更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.23 (09/06/29)&lt;/p&gt;
+&lt;li&gt;0.23 (09/06/29)
 &lt;ul&gt;
 &lt;li&gt;可変フレームレート動画に対応&lt;/li&gt;
 &lt;li&gt;上限ビットレートを守らないことがあるので、少し上限を制限&lt;/li&gt;
 &lt;li&gt;エンコ中に作成される一時ファイルの数が少なく済むようにスクリプト変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.22 (09/06/29)&lt;/p&gt;
+&lt;li&gt;0.22 (09/06/29)
 &lt;ul&gt;
 &lt;li&gt;無圧縮AVIの音声がきちんとエンコードされないバグを修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.21 (09/06/29)&lt;/p&gt;
+&lt;li&gt;0.21 (09/06/29)
 &lt;ul&gt;
 &lt;li&gt;AVSファイルに対応&lt;/li&gt;
 &lt;li&gt;x264のオプション変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.20 (09/06/28)&lt;/p&gt;
+&lt;li&gt;0.20 (09/06/28)
 &lt;ul&gt;
 &lt;li&gt;MPEGなど、様々なフォーマットの動画に対応&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.19 (09/06/26)&lt;/p&gt;
+&lt;li&gt;0.19 (09/06/26)
 &lt;ul&gt;
 &lt;li&gt;音声のデコーダーを変更(一部の動画で音声が読み込めなかった問題への対処)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.18 (09/06/26)&lt;/p&gt;
+&lt;li&gt;0.18 (09/06/26)
 &lt;ul&gt;
 &lt;li&gt;AVIのエンコのときに音声がエンコードされないバグを再修正&lt;/li&gt;
 &lt;li&gt;MP4の容量チェックで、エンコ作業が固まるときがあるバグを修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.17 (09/06/25)&lt;/p&gt;
+&lt;li&gt;0.17 (09/06/25)
 &lt;ul&gt;
 &lt;li&gt;レジストリの設定の修正&lt;/li&gt;
 &lt;li&gt;AVIのエンコのときに音声がエンコードされないバグを修正(0.14のときからのバグ？)&lt;/li&gt;
 &lt;li&gt;high.batとlow.batの整理&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.16 (09/06/25)&lt;/p&gt;
+&lt;li&gt;0.16 (09/06/25)
 &lt;ul&gt;
 &lt;li&gt;2passで映像ビットレートがオーバーしたとき、自動で3passに入るように変更&lt;/li&gt;
 &lt;li&gt;x264を更新(r1171)&lt;/li&gt;
 &lt;li&gt;DevIL.dllを更新&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.15 (09/06/23)&lt;/p&gt;
+&lt;li&gt;0.15 (09/06/23)
 &lt;ul&gt;
 &lt;li&gt;2passで映像ビットレートが収まらなかったときの挙動を変更(ビットレート調整)&lt;/li&gt;
 &lt;li&gt;エンコードの最後にMP4のファイル容量のチェックする機能実装&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.14 (09/06/23)&lt;/p&gt;
+&lt;li&gt;0.14 (09/06/23)
 &lt;ul&gt;
 &lt;li&gt;無音AVIをエンコする際にエラーになるバグを修正(0.12のときからのバグ？)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.13 (09/06/21)&lt;/p&gt;
+&lt;li&gt;0.13 (09/06/21)
 &lt;ul&gt;
 &lt;li&gt;異常終了したときに残る一時ファイルを削除してからエンコを開始するように変更&lt;/li&gt;
 &lt;li&gt;x264のオプション設定にミスがあったので修正(本当に申し訳ありませんでしたorz)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.12 (09/06/21)&lt;/p&gt;
+&lt;li&gt;0.12 (09/06/21)
 &lt;ul&gt;
 &lt;li&gt;非対応ファイルのときにきちんとバッチが終了するように変更&lt;/li&gt;
 &lt;li&gt;音声ビットレート指定の際の挙動を若干修正&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.11 (09/06/20)&lt;/p&gt;
+&lt;li&gt;0.11 (09/06/20)
 &lt;ul&gt;
 &lt;li&gt;無音エンコード実装&lt;/li&gt;
 &lt;li&gt;1pass高速化機能実装&lt;/li&gt;
 &lt;li&gt;x264のオプション変更&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0.10 (09/06/20)&lt;/p&gt;
+&lt;li&gt;0.10 (09/06/20)
 &lt;ul&gt;
 &lt;li&gt;ひとまず作成&lt;/li&gt;
 &lt;/ul&gt;
