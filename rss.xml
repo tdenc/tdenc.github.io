@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 14 Sep 2022 05:05:28 GMT</lastBuildDate><item><title><![CDATA[投げ銭]]></title><description><![CDATA[…]]></description><link>https://tdenc.com/お知らせ/投げ銭_/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/投げ銭_/</guid><pubDate>Thu, 08 Sep 2022 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;以下のサービスを通して投げ銭をいただけますと励みになります。くれぐれもご負担にならない範囲でお願いいたします。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 14 Sep 2022 05:19:29 GMT</lastBuildDate><item><title><![CDATA[投げ銭]]></title><description><![CDATA[…]]></description><link>https://tdenc.com/お知らせ/投げ銭_/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/投げ銭_/</guid><pubDate>Thu, 08 Sep 2022 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;以下のサービスを通して投げ銭をいただけますと励みになります。くれぐれもご負担にならない範囲でお願いいたします。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;投げ銭に対する見返りなどはございませんので、あらかじめご了承くださいませ。&lt;/li&gt;
 &lt;li&gt;見返りや限定コンテンツの提供がない都合上、継続型のサービスは今後も利用しない予定です。&lt;/li&gt;
@@ -36,15 +36,15 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB186weogTQNAP/8QAHRAAAwACAgMAAAAAAAAAAAAAAQIDBBEAExQjM//aAAgBAQABBQKtHV+59RLGeQPZRttj/ExQt48+ABR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRAAAgIDAAMAAAAAAAAAAAAAAAECESEiMRKBsf/aAAgBAQAGPwKW2Pgsyzx0LydslWb6ha0okRyrLOX7KXD/xAAdEAADAAICAwAAAAAAAAAAAAAAAREhMVFxYaGx/9oACAEBAAE/IZsqUTRSpBscXmC1D0bODLG9gSI7+jEYEeS+37M6LK4mkf/aAAwDAQACAAMAAAAQ4wA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIBABAAICAQQDAAAAAAAAAAAAAREhADFRQWFxgZGh8f/aAAgBAQABPxCLRAJgtBKpGFg2qHtFm718WCRVkefrDmMjRlWB1X5kNvBBrTpJ3505ZkhA7Eo46RjWnaVkRi41kIR5S3hoAwGg4M//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB1UjmesgTQNIP/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQIDABESEwQUM//aAAgBAQABBQKaRw+57QEmPkAZu+dQeWpC3WjoCw//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIhETFBUcH/2gAIAQEABj8CklPHgrd6YnJ5ZLsVUhDlyzRhH//EABwQAAICAwEBAAAAAAAAAAAAAAERADEhQVFhcf/aAAgBAQABPyFHpqFAeyQLnpwIxgkkQEcqtRynjRhO+EyDpmdX+luA1An/2gAMAwEAAgADAAAAELDIAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB8QAQACAgICAwAAAAAAAAAAAAERIQAxQVFh4XGB8P/aAAgBAQABPxCDgAgClWyRHvJ8tVi6ExZu9P1ctIWYRz1xkybyQiBX5zg2BllPh5OR704TCBe97d45VKFKzJYlBsUfId+3DgRUHWf/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;QRコード&quot;
         title=&quot;tdenc&quot;
-        src=&quot;/static/51c328618cbd28c0a011305c736fb349/d80bc/pring.jpg&quot;
-        srcset=&quot;/static/51c328618cbd28c0a011305c736fb349/ff44c/pring.jpg 158w,
-/static/51c328618cbd28c0a011305c736fb349/d80bc/pring.jpg 209w&quot;
+        src=&quot;/static/ca8e03df00b4374d9937157b0256d1ae/d80bc/pring.jpg&quot;
+        srcset=&quot;/static/ca8e03df00b4374d9937157b0256d1ae/ff44c/pring.jpg 158w,
+/static/ca8e03df00b4374d9937157b0256d1ae/d80bc/pring.jpg 209w&quot;
         sizes=&quot;(max-width: 209px) 100vw, 209px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
