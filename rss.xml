@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Oct 2022 12:28:39 GMT</lastBuildDate><item><title><![CDATA[［ESOアドオン］AutoBanishPets 0.5.5]]></title><description><![CDATA[ESOアドオンのAuto Banish Pets/Assistants/Companions のバージョン0.5.5をリリースしました。Minion…]]></description><link>https://tdenc.com/お知らせ/autobanishpets_0.5.5/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/autobanishpets_0.5.5/</guid><pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ESOアドオンのAuto Banish Pets/Assistants/Companions のバージョン0.5.5をリリースしました。Minionで更新してください。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[窓屋]]></title><description><![CDATA[blog]]></description><link>https://tdenc.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Oct 2022 12:05:27 GMT</lastBuildDate><item><title><![CDATA[つんでれんこ2.999リリース]]></title><description><![CDATA[つんでれんこバージョン2.999をリリースしました。Win版もMac版もユーザからの不具合報告への対処になります。 Win版 ダウンロードはこちらから ファイル名処理の改善 ツールインストーラーの改善 ライセンス文書の整理 Mac…]]></description><link>https://tdenc.com/お知らせ/つんでれんこ2.999リリース/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/つんでれんこ2.999リリース/</guid><pubDate>Thu, 13 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;つんでれんこバージョン2.999をリリースしました。Win版もMac版もユーザからの不具合報告への対処になります。&lt;/p&gt;
+&lt;h2 id=&quot;win版&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#win%E7%89%88&quot; aria-label=&quot;win版 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Win版&lt;/h2&gt;
+&lt;p&gt;ダウンロードは&lt;a href=&quot;https://github.com/tdenc/TDEnc/releases/tag/v2.999&quot;&gt;こちらから&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ファイル名処理の改善&lt;/li&gt;
+&lt;li&gt;ツールインストーラーの改善&lt;/li&gt;
+&lt;li&gt;ライセンス文書の整理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;mac版&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mac%E7%89%88&quot; aria-label=&quot;mac版 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mac版&lt;/h2&gt;
+&lt;p&gt;ダウンロードは&lt;a href=&quot;https://github.com/tdenc/TDEnc2/releases/tag/v2.999&quot;&gt;こちらから&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アップデータの修正&lt;/li&gt;
+&lt;li&gt;ファイルチェック機能のバグ修正&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[［ESOアドオン］AutoBanishPets 0.5.5]]></title><description><![CDATA[ESOアドオンのAuto Banish Pets/Assistants/Companions のバージョン0.5.5をリリースしました。Minion…]]></description><link>https://tdenc.com/お知らせ/autobanishpets_0.5.5/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/autobanishpets_0.5.5/</guid><pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ESOアドオンのAuto Banish Pets/Assistants/Companions のバージョン0.5.5をリリースしました。Minionで更新してください。&lt;/p&gt;
 &lt;p&gt;更新内容&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;再召還の改善（他のアドオンで消えたコンパニオンや助手も再召還可能に）&lt;/li&gt;
@@ -87,7 +100,7 @@
 &lt;ul&gt;
 &lt;li&gt;月初に前月の投げ銭についてサイトで報告します。匿名やニックネームを希望する場合は投げ銭する際にその旨をお伝えください。&lt;/li&gt;
 &lt;li&gt;受け取った投げ銭から一定金額を、つんでれんこ・TDEnc2・NNCが内部で利用している各ツールの開発団体にまどやが寄付します。どの団体にいくら寄付したかについても月初に報告します。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[つんでれんこ2.99の不具合対処法]]></title><description><![CDATA[2.99リリース後、ツイッターでエゴサしてサポートしたり、リプライやDMが飛んできて対応したりしてきたことを以下にまとめます。周りで困っている人を見かけたらこの記事をお伝えしていただけると助かります。 解決法1：手動ダウンロード バージョン2.98から2.9…]]></description><link>https://tdenc.com/お知らせ/つんでれんこ2.99の不具合対処法/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/つんでれんこ2.99の不具合対処法/</guid><pubDate>Sat, 24 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2.99リリース後、ツイッターでエゴサしてサポートしたり、リプライやDMが飛んできて対応したりしてきたことを以下にまとめます。周りで困っている人を見かけたらこの記事をお伝えしていただけると助かります。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[つんでれんこ2.99以降の不具合対処法]]></title><description><![CDATA[2.99リリース後、ツイッターでエゴサしてサポートしたり、リプライやDMが飛んできて対応したりしてきたことを以下にまとめます。周りで困っている人を見かけたらこの記事をお伝えしていただけると助かります。 解決法1：手動ダウンロード バージョン2.98から2.9…]]></description><link>https://tdenc.com/お知らせ/つんでれんこ2.99の不具合対処法/</link><guid isPermaLink="false">https://tdenc.com/お知らせ/つんでれんこ2.99の不具合対処法/</guid><pubDate>Sat, 24 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2.99リリース後、ツイッターでエゴサしてサポートしたり、リプライやDMが飛んできて対応したりしてきたことを以下にまとめます。周りで困っている人を見かけたらこの記事をお伝えしていただけると助かります。&lt;/p&gt;
 &lt;h2 id=&quot;解決法1：手動ダウンロード&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%A7%A3%E6%B1%BA%E6%B3%951%EF%BC%9A%E6%89%8B%E5%8B%95%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&quot; aria-label=&quot;解決法1：手動ダウンロード permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;解決法1：手動ダウンロード&lt;/h2&gt;
 &lt;p&gt;バージョン2.98から2.99にバージョンアップするときに、自動アップデートがうまく機能しないことがあります。&lt;/p&gt;
 &lt;ul&gt;
@@ -325,6 +338,13 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;チェンジログ&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%AD%E3%82%B0&quot; aria-label=&quot;チェンジログ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;チェンジログ&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;2.999 (2022/10/13)（復活版2）
+&lt;ul&gt;
+&lt;li&gt;ファイル名処理の改善&lt;/li&gt;
+&lt;li&gt;ツールインストーラーの改善&lt;/li&gt;
+&lt;li&gt;ライセンス文書の整理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;2.99 (22/09/09)（復活版）
 &lt;ul&gt;
 &lt;li&gt;ツールのアップデート&lt;/li&gt;
